@@ -4,15 +4,16 @@
 
 - [Índice](#índice)
 - [Preámbulo](#preámbulo)
+- [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
 - [Consideraciones generales](#consideraciones-generales)
-  - [Detalles del proyecto](#detalles-del-proyecto)
+- [Requerimientos del proyecto](#requerimientos-del-proyecto)
   - [Planificación (Agile-Scrum)](#planificación-agile-scrum)
   - [UX (Diseño de experiencia de usuario)](#ux-diseño-de-experiencia-de-usuario)
   - [Front-end](#front-end)
 - [Entrega](#entrega)
 - [Parte opcional o "Hacker edition"](#parte-opcional-o-hacker-edition)
 - [Recursos y temas relacionados](#recursos-y-temas-relacionados)
-- [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
+- [Detalles de aprendizaje](#detalles-de-aprendizaje)
 
 ## Preámbulo
 
@@ -35,6 +36,20 @@ se convierte en **D**.
   y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el
   cifrado César sí puede formar parte de sistemas más complejos de codificación, como el
   cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
+  
+## Objetivos de aprendizaje
+
+El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (_WebApp_) que 
+interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript (ES6) 
+como herramientas.
+
+En este proyecto tendrás que construir una aplicación web que le permita a un usuario cifrar y descifrar un 
+mensaje.
+
+Para completar el proyecto tendrás que familiarizarte con conceptos como las necesidades del usuario y propuesta 
+de una solución; etiquetas semánticas y formularios en HTML5; modelo de cajas y selectores en CSS3; métodos de 
+selección y eventos del DOM; manipulación de strings, control de flujo y funciones en JS; así como pruebas 
+unitarias en Mocha. Recuerda que parte fundamental es organizar tu tiempo y priorizar tus tareas.
 
 ## Consideraciones generales
 
@@ -49,7 +64,7 @@ se convierte en **D**.
   | **1er Sprint**    | 03/06 al 07/06 | _Code review_ (revisión de código), _peer feedback_ (retroalimentación por parejas) y _retro planning_ del sprint 2 (identificar, documentar e internalizar las lecciones aprendidas en la 2da semana) |
   | **2do Sprint**    | 10/06 al 14/06 | _Demo_ (presentación) y _feedback_ final del proyecto |
 
-### Detalles del proyecto
+## Requerimientos del proyecto
 
 La temática es libre pero la interfaz debe permitir al usuario:
 - Escribir un mensaje (texto) para ser cifrado.
@@ -202,16 +217,11 @@ consejos! :)
 - [Valores y tipos de datos](https://lms.laboratoria.la/cohorts/lim-2019-05-bc-core-lim010/courses/javascript/01-basics/01-values-variables-and-types)
 - [Variables](https://lms.laboratoria.la/cohorts/lim-2019-05-bc-core-lim010/courses/javascript/01-basics/02-variables)
 - [Control de flujo](https://lms.laboratoria.la/cohorts/lim-2019-05-bc-core-lim010/courses/javascript/02-flow-control/00-opening)
-
 - [Tests unitarios](https://lms.laboratoria.la/cohorts/lim-2019-05-bc-core-lim010/courses/javascript/11-testing/00-opening)
 - [GitHub y GitHub Pages](https://guides.github.com/)
 - [Documentación de NPM](https://docs.npmjs.com/)
 
-## Objetivos de aprendizaje
-
-Este proyecto tiene como objetivo de aprendizaje construir una **aplicación web (WebApp)**
-utilizando HTML5 , CCS3  y JavaScript (ES6) que le permita a un usuario cifrar y descifrar un
-mensaje. Para su desarrollo, se consideran los siguientes puntos:
+## Detalles de aprendizaje
 
 ### A nivel de planificación
 
