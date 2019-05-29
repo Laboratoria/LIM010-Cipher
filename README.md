@@ -17,7 +17,7 @@
 
 ## Preámbulo
 
-Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
+Cifrar significa codificar. El [cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar)
 es un tipo de **cifrado por sustitución**, es decir que una letra en el texto original es
 reemplazada por otra letra que se encuentra un número de posiciones más adelante en el alfabeto.
 
@@ -59,10 +59,8 @@ unitarias en Mocha. Recuerda que parte fundamental es organizar tu tiempo y prio
 
   | Tiempos           | Fechas         | Detalles                           |
   | :---------------: | :------------: | :--------------------------------- |
-  | **Planificación** | 30/05          | Planificación del proyecto         |
-  | **UX**            | 31/05          | Prototipado de baja fidelidad (papel y lapiz) + iteración (herramienta [balsamiq](https://balsamiq.com/)) |
-  | **1er Sprint**    | 03/06 al 07/06 | _Code review_ (revisión de código), _peer feedback_ (retroalimentación por parejas) y _retro planning_ del sprint 2 (identificar, documentar e internalizar las lecciones aprendidas en la 2da semana) |
-  | **2do Sprint**    | 10/06 al 14/06 | _Demo_ (presentación) y _feedback_ final del proyecto |
+  | **1er Sprint**    | 30/05 al 07/06 |Planificación del sprint 1, prototipado de baja fidelidad (papel y lapiz) + iteración (herramienta [balsamiq](https://balsamiq.com/)), _code review_ (revisión de código), _peer feedback_ (retroalimentación por parejas)  _retrospectiva_ (identificar, documentar e internalizar las lecciones aprendidas en la 1ra semana), planificación del sprint 2  |
+  | **2do Sprint**    | 07/06 al 14/06 | _Code review_ (revisión de código), _peer feedback_ (retroalimentación por parejas),  _retrospectiva_ (identificar, documentar e internalizar las lecciones aprendidas en la 2da semana), _demo_ (presentación) y _feedback_ final del proyecto |
 
 ## Requerimientos del proyecto
 
