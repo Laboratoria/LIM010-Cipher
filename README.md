@@ -65,6 +65,8 @@ unitarias en Mocha. Recuerda que parte fundamental es organizar tu tiempo y prio
 ## Requerimientos del proyecto
 
 La temática es libre pero la interfaz debe permitir al usuario:
+
+- Ingresar una clave : LABORATORIA que al tercer intento debe mostrarle el mensaje 'Contraseña incorrecta', caso contrario permitirá que cifre y descifre un mensaje.
 - Escribir un mensaje (texto) para ser cifrado.
 - Elegir un desplazamiento (_offset_) a usar en el cifrado y/o descifrado.
 - Ver el resultado del mensaje cifrado correctamente.
@@ -260,7 +262,7 @@ textContent
 #### JavaScript (ES6)
 
 - Manipular _**strings**_ (cadenas de texto).
-- Usar **control de flujo** (bucles, condicionales, ...).
+- Usar **control de flujo if-else, do-while** (bucles y condicionales).
 - _Implementar funciones_ dada una descripción de su comportamiento.
 - Verifica que tus funciones hagan las cosas para las que fueron creadas
 (**pruebas unitarias (_test_) con Mocha**)
