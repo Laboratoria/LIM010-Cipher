@@ -24,7 +24,7 @@ reemplazada por otra letra que se encuentra un número de posiciones más adelan
 Veamos los siguientes ejemplos:
 - Si ciframos la letra A usando un desplazamiento (_offset_) de 3 posiciones, entonces la **A**
 se convierte en **D**.
-- Ahora, si ciframos la palabra **CASA** con el mismo desplazamiento de 3, ésta se convierte en 
+- Ahora, si ciframos la palabra **CASA** con el mismo desplazamiento de 3, ésta se convierte en
 **FDVD**.
 - Y para el alfabeto completo, con el mismo desplazamiento de 3 posiciones, sería:
   - Sin cifrado: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
@@ -36,19 +36,19 @@ se convierte en **D**.
   y, aunque en la práctica no ofrecen mucha seguridad en la comunicación por sí mismos; el
   cifrado César sí puede formar parte de sistemas más complejos de codificación, como el
   cifrado Vigenère, e incluso tiene aplicación en el sistema ROT13.
-  
+
 ## Objetivos de aprendizaje
 
-El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (_WebApp_) que 
-interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript (ES6) 
+El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (_WebApp_) que
+interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript (ES6)
 como herramientas.
 
-En este proyecto tendrás que construir una aplicación web que le permita a un usuario cifrar y descifrar un 
+En este proyecto tendrás que construir una aplicación web que le permita a un usuario cifrar y descifrar un
 mensaje.
 
-Para completar el proyecto tendrás que familiarizarte con conceptos como las necesidades del usuario y propuesta 
-de una solución; etiquetas semánticas y formularios en HTML5; modelo de cajas y selectores en CSS3; métodos de 
-selección y eventos del DOM; manipulación de strings, control de flujo y funciones en JS; así como pruebas 
+Para completar el proyecto tendrás que familiarizarte con conceptos como las necesidades del usuario y propuesta
+de una solución; etiquetas semánticas y formularios en HTML5; modelo de cajas y selectores en CSS3; métodos de
+selección y eventos del DOM; manipulación de strings, control de flujo y funciones en JS; así como pruebas
 unitarias en Mocha. Recuerda que parte fundamental es organizar tu tiempo y priorizar tus tareas.
 
 ## Consideraciones generales
@@ -66,7 +66,9 @@ unitarias en Mocha. Recuerda que parte fundamental es organizar tu tiempo y prio
 
 La temática es libre pero la interfaz debe permitir al usuario:
 
-- Ingresar una clave : LABORATORIA que al tercer intento debe mostrarle el mensaje 'Contraseña incorrecta', caso contrario permitirá que cifre y descifre un mensaje.
+- Mostrar una vista de ingreso que tenga como contraseña LABORATORIA. En caso de colocar una clave
+incorrecta, se mostrará un mensaje de error; sin embargo al tercer intento debería mostrar el mensaje
+_"Ya utilizaste todos tus intentos, en este momento no podrás ingresar"_.
 - Escribir un mensaje (texto) para ser cifrado.
 - Elegir un desplazamiento (_offset_) a usar en el cifrado y/o descifrado.
 - Ver el resultado del mensaje cifrado correctamente.
@@ -87,7 +89,7 @@ No dudes en solicitar ayuda a tus coaches.
 
 Antes de iniciar a codear, debes entender el problema que quieres solucionar y cómo tu
 aplicación lo soluciona.
-- Trabaja tu primer prototipo con papel y lápiz (blanco y negro). 
+- Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
 - Luego valida esta solución con una compañera (pedir feedback).
 - Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un nuevo prototipo
 usando [Balsamiq](https://balsamiq.com/)). Estos puntos los presentarás en el `README.md`.
