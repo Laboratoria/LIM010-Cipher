@@ -138,7 +138,7 @@ por eso NO está permitido el uso de frameworks de CSS3 (Bootstrap, materialize,
 Vamos a tener 2 archivos JavaScript separando responsabilidades, a continuación indicamos qué
 harás en cada archivo:
 
-**`src/js/cipher.js`**:
+**`src/cipher.js`**:
 
 Acá escribirás las 2 funciones necesarias para el usuario pueda cifrar o descifrar.
 Para esto debes implementar el **objeto `cipher`**, el cual ya se encuentra _exportado_ en el
@@ -149,7 +149,7 @@ objeto global (`window`). Este objeto (`cipher`) contiene dos métodos:
   - **`cipher.decode(offset, string)`**: `offset` es el número de posiciones que queremos
   mover a la izquierda en el alfabeto y `string` el mensaje (texto) que queremos descifrar.
 
-**`src/js/index.js`**:
+**`src/index.js`**:
 
 Acá escribirás todo el código que tenga que ver con la interacción del DOM (seleccionar,
 actualizar y manipular elementos del DOM y eventos).
