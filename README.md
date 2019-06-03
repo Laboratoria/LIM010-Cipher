@@ -1,6 +1,7 @@
-# Cifrado César
+# Acortando Distancias.com
 
 ## Índice
+
 
 - [Índice](#índice)
 - [Preámbulo](#preámbulo)
@@ -16,6 +17,7 @@
 - [Detalles de aprendizaje](#detalles-de-aprendizaje)
 
 ## Preámbulo
+
 
 Cifrar significa codificar. El [cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar)
 es un tipo de **cifrado por sustitución**, es decir que una letra en el texto original es
