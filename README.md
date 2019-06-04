@@ -1,8 +1,29 @@
 # Ventaja Profesional.com
 
-## Índice
 
-Linea de prueba.
+No es agradable recibir una respuesta negativa después de una entrevista de trabajo y peor aún si nos vamos a casa con muchas interrogantes sin una respuesta que les ayude a mejorar en ciertos aspectos y actitudes que tuvimos durante la entrevista. Es por eso, que Ventaja Profesional fue creada con la finalidad de ayudar a entender en que parte de la entrevista fallaste y que te vuelvas a presentar a una siguiente entrevista con mas fortalezas.
+
+Esta página web, está dirigida a aquellas personas que hayan afrontado un proceso de selección reciente y que se les halla dado una respuesta negativa. 
+
+
+**IMAGEN DEL PRIMER PROTOTIPO EN PAPEL:**
+
+![20190604_095125](https://user-images.githubusercontent.com/50127415/58889529-ab6d2880-86ae-11e9-9dde-e2330becc39f.jpg)
+
+El feedback que recibí de mi compañera de squad fue que mi prototipo necesitaba un título de página y además de una imagen que lo acompañe. Luego, me dijo que debia seguir poniendo mas imagenes en las paginas para que ayude a la visibilidad del usuario. También, que agregue texto utilizando frases que logren crear un vinculo entre la pagina web y el usuario para que de esa forma, su uso sea mas amigable.
+
+Otro feedback que me dieron, fue que el cuadro de texto donde uno ingresa su mensaje a cifrar o descifrar se encuentren en la misma página ya que hace mas sencillo y directo su uso. Tambíen, que ponga un botón de "Limpiar" por si el usuario quiere volver a colocar otro mensaje. finalmente, comentó que sería mas práctico que coloque una espacio para ingresar el correo electrónico y enviarlo inmediantamente. 
+
+**IMAGEN DE PROTOTIPO FINAL EN BALSAMIQ:**
+
+![Login](https://user-images.githubusercontent.com/50127415/58889838-246c8000-86af-11e9-8079-5f243fb2f2a7.png)
+
+![Transform](https://user-images.githubusercontent.com/50127415/58889880-33533280-86af-11e9-9c11-256bb451160e.png)
+
+![Send email](https://user-images.githubusercontent.com/50127415/58889920-46fe9900-86af-11e9-8de1-80e1a25a1b11.png)
+
+
+
 
 - [Índice](#índice)
 - [Preámbulo](#preámbulo)
