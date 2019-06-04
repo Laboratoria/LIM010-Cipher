@@ -1,1 +1,20 @@
 /* Acá van tus reglas de estilo */
+h1{
+    color:red
+}
+h2{
+    color:blueviolet
+}
+h3{
+    color:blue
+}
+.centrado {
+   text-align: center;
+}
+
+.visible {
+    display: block;
+}
+.hidden {
+   display: none; 
+}
