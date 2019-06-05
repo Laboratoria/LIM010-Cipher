@@ -6,7 +6,7 @@ function go(){
             document.form.submit(); 
         } 
         else{ 
-             alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+             alert("Ya utilizaste todos tus intentos, en este momento no podrás ingresar."); 
         } 
     } 
 

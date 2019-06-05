@@ -1,12 +1,37 @@
 /* Acá van tus reglas de estilo */
 h1{
-    color: rgba(36, 131, 240, 0.664)
+    color: rgba(36, 131, 240, 0.664);
+    text-align: center;
 }
 h2{
     color:blueviolet
 }
-h3{
-    color:blue
+
+form {
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+    background: rgb(213, 214, 214);
+    padding: 30px;
+    border: 1px solid rgb(16, 16, 17)
+}
+input{
+    display: block;
+    padding: 10px;
+    width: 70%;
+    margin: 15px 0;
+    font-size: 20px;
+}
+input [type="submit"]:hover {
+    opacity: 1;
+}
+input[type="submit"]:active {
+    transform: scale(0,95);
+}
+@media (max-width:768px){
+    form {
+        width: 95%;
+    }
 }
 .centrado {
    text-align: center;
