@@ -37,6 +37,15 @@ input{
     font-size: 20px;
 }
 
+input[type="submit"] {
+    background: linear-gradient();
+    border: 0;
+    color: brown;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
 input [type="submit"]:hover {
     opacity: 1;
 }
@@ -46,9 +55,16 @@ input[type="submit"]:active {
 }
 @media (max-width:768px){
     form {
+        width: 75%;
+    }
+}
+
+@media (max-width:480px){
+    form {
         width: 95%;
     }
 }
+
 .centrado {
    text-align: center;
 }
