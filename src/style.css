@@ -1,1 +1,22 @@
 /* Acá van tus reglas de estilo */
+div{
+    background:transparent;
+    height: 400px;
+    width:50%;
+    margin:auto;
+    display:block;
+}
+label{
+    font-size:20px;
+    display:block;
+    widows: 100%;
+    font-family:"barlow";
+    text-align:center;}
+#login{
+    display:block;}
+
+#cipher {
+    display:none;}
+#codigo{
+    display:none;
+}
