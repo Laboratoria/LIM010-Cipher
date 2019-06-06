@@ -2,19 +2,27 @@ import { strict } from "assert";
 
 window.cipher = {
   encode: (offset, string) => {
-    /* Acá va tu código que cifra*/
     let result = '';
-    for (let indexString = 0; indexString < string.length; indexString++){
-      if (string[indexString] in ['A'..'Z']) {
-        //transformar el caracter usando el offset.
+    for (let c of string) {
+      if (c >= 'A' && c <= 'Z') {
+        let ASCIICode = (c.charCodeAt(0) - 65 + offset) % 26 + 65;
+        result += String.fromCharCode(ASCIICode);
       } else {
-        result = result+string[indexString];
+        result += c;
       }
-
-    }
+    };
     return result;
   },
   decode: (offset, string) => {
-    /* Acá va tu código que descifra*/
+    let result = '';
+    for (let c of string) {
+      if (c >= 'A' && c <= 'Z') {
+        let ASCIICode = (c.charCodeAt(0) - 65 - offset) % 26 + 65;
+        result += String.fromCharCode(ASCIICode);
+      } else {
+        result += c;
+      }
+    };
+    return result;
   }
 };
