@@ -15,9 +15,14 @@
       <p>Bienvenid@ a este espacio donde podrás cifrar y descifrar todo tipo de texto.</p><br>
       <p>Ingresa tu usuario y contraseña para comenzar:</p><br>
       <form name="form" action="VentajaProfesional.com">
-        <P>Usuario: <INPUT type="text" placeholder="&#128272; usuario" name="user">
-          <P>Contraseña: <INPUT type="password" placeholder="&#128272; contraseña" name="password"><br><br>
-            <input onclick=go() type="submit" value="Ingresar">
+        <div class="general">
+          <label>Usuario:</label> <input type="text" placeholder="&#9823; usuario" name="user">
+        </div>
+        <div class="general">
+          <label>Contraseña:</label> <input type="password" placeholder="&#128272; contraseña" maxlength="12" name="password"><br><br>
+        </div>
+
+        <input onclick=go() type="submit" value="Ingresar">
       </form>
     </div>
     <div id="divCipher">
@@ -35,18 +40,25 @@
 
         Escribe tu mensaje, elije el desplazamiento que gustes, elije cifrar o descifrar y ¡listo! ¡Empecemos!</p><br>
       <p>Ingresa tu mensaje aqui:</p><br>
-      <textarea id="textAreaIn">Ingresa tu texto aqui...</textarea>
+      <textarea id="textAreaIn" placeholder="Ingresa tu texto aqui..."></textarea><br>
 
-      <table>
-        <tr>
-          <td>Desplazamiento:</td>
-          <td><input id="inputOffset" type="number" placeholder="1" step="1" min="-100" max="100"></td>
-          <td><input type="button" id="btnEncode" value="Cifrar"></td>
-          <td><input type="button" id="btnDecode" value="Descifrar"></td>
+          <label>Desplazamiento:</label>
+          <input id="inputOffset" type="number" placeholder="1" step="1" min="-100" max="100">
+          <input id="btnEncode" type="button"  value="Cifrar">
+          <input id="btnDecode" type="button"  value="Descifrar">
 
-        </tr>
-      </table>
     </div>
+
+    <p>Tu mensaje final es:</p>
+    <textarea id="textAreaOut" placeholder="Tu mensaje final es:"></textarea>
+    <input type="submit" value="Limpiar">
+    <input type="submit" value="Enviar">
+    <input type="submit" value="Salir">
+
+    <p>Escribe aquí el correo de destino:</p>
+    <input type="text" name="email">
+    <input type="submit" value="Enviar Mensaje">
+    <input type="submit" value="Salir">
   </main>
 
   <footer></footer>
