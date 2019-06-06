@@ -1,33 +1,57 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Ventaja Profesional</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body>
-    <header>
-      <h1>VENTAJA PROFESIONAL</h1>
-    </header> 
-    <main>
+<head>
+  <meta charset="utf-8">
+  <title>Ventaja Profesional</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <div id="divLogin">
+      <h1>VENTAJA PROFESIONAL</h1><br>
       <p>Bienvenid@ a este espacio donde podrás cifrar y descifrar todo tipo de texto.</p><br>
-      <p>Ingresa tu usuario y contraseña para comenzar</p><br>
-        <form name="form" action="VentajaProfesional.com">
+      <p>Ingresa tu usuario y contraseña para comenzar:</p><br>
+      <form name="form" action="VentajaProfesional.com">
+        <P>Usuario: <INPUT type="text" placeholder="&#128272; usuario" name="user">
+          <P>Contraseña: <INPUT type="password" placeholder="&#128272; contraseña" name="password"><br><br>
+            <input onclick=go() type="submit" value="Ingresar">
+      </form>
+    </div>
+    <div id="divCipher">
+      <p>Bienvenida</p>
+      <p>Sabemos que muchas veces te quedaste con esta frase en tu cabeza después de una entrevista laboral: ¿Y donde
+        esta mi feedback? ¿Debo pedirlo? ¿Porque no me han contratado? ¿Quizá hablé de más?
+        A todos nos ayudaría mucho recibir un feedback constructivo porque nos da chance de poder mejorar en aspectos
+        que no hemos desarrollado bien para luego presentarnos a otra entrevista y tener mas oportunidades para ser
+        contratados. Sin embargo, sabemos que las empresas no estan obligadas a darlo pero lo que si se sabe es que es
+        una herramienta de desarrollo profesional que guía a los candidatos ya que les ayuda a entender qué falla en su
+        currículum, discurso o actitud. Sin una valoración crítica, repetiremos los mismos errores y crearemos una
+        sensación de fracaso permanente que nos hará más frágiles y acabaremos perdiendo confianza en nosotros mismos.
+        En este espacio, podrás conocer el feedback que necesitas para mejorar tus habilidades de una manera rapida,
+        sencilla y gratuita.
 
-        <P>Usuario:    <INPUT type="text" placeholder="&#128272; usuario" name="user"> 
-        <P>Contraseña: <INPUT type="password" placeholder="&#128272; contraseña" name="password"><br><br> 
-        <input onclick=go() type="submit" value="Ingresar"> 
-        
-        </form> 
-      </div>
-      
+        Escribe tu mensaje, elije el desplazamiento que gustes, elije cifrar o descifrar y ¡listo! ¡Empecemos!</p><br>
+      <p>Ingresa tu mensaje aqui:</p><br>
+      <textarea id="textAreaIn">Ingresa tu texto aqui...</textarea>
 
+      <table>
+        <tr>
+          <td>Desplazamiento:</td>
+          <td><input id="inputOffset" type="number" placeholder="1" step="1" min="-100" max="100"></td>
+          <td><input type="button" id="btnEncode" value="Cifrar"></td>
+          <td><input type="button" id="btnDecode" value="Descifrar"></td>
 
+        </tr>
+      </table>
+    </div>
+  </main>
 
-    </main>
-    <footer></footer>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+  <footer></footer>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
