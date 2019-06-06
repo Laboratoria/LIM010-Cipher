@@ -1,4 +1,8 @@
 /* Acá van tus reglas de estilo */
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,54,121,1) 46%, rgba(0,212,255,1) 100%);
+    width:auto  
+}
 div{
     background:transparent;
     height: 400px;
@@ -6,14 +10,36 @@ div{
     margin:auto;
     display:block;
 }
+
+input{
+  margin-bottom: 30px;
+  width: 50px;
+  padding: 18px;
+  box-sizing: 15Px;
+  border: 1px solid #f79a0b;
+  border-block-end-color: #f79a0b;
+  border-radius: 15px;
+  text-align:center 
+}
 label{
     font-size:20px;
     display:block;
     widows: 100%;
     font-family:"barlow";
     text-align:center;}
+.logeo {
+        background:#f7ad0b;
+        width: 500px;
+        border-radius: 30px;
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+        justify-content:center;
+        align-items: center;}s
+
+
 #login{
-    display:block;}
+ display:block;}
 
 #cipher {
     display:none;}

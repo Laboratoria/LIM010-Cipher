@@ -12,10 +12,10 @@ document.getElementById("buttonnext").addEventListener("click",function enable()
     vistacodigo.style.display="none"
     }
   else{
-    document.getElementById("error").innerHTML ="Contraseña incorrecta";
+    document.getElementById("error").innerHTML ="Contraseña incorrecta"
+    
   } 
   })
-
   function cipher(){
     vistalogin.style.display="none";
     vistacipher.style.display="block"
@@ -24,6 +24,3 @@ document.getElementById("buttonnext").addEventListener("click",function enable()
     vistalogin.style.display="none";
     vistacodigo.style.display="block";
   }
-  do {
-    // statements
-  } while (condition);
