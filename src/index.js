@@ -24,3 +24,6 @@ document.getElementById("buttonnext").addEventListener("click",function enable()
     vistalogin.style.display="none";
     vistacodigo.style.display="block";
   }
+  do {
+    // statements
+  } while (condition);
