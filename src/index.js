@@ -14,7 +14,7 @@ contador = numero + 1
 }
 
 // const numero = si dentro del input, el usuario escribe un string y yo quiero pasarlo a number tengo que utilizar
-parseInt
+//parseInt
 
 // si password esigual a paquita entonces 'Bienvenida Paquita'
 if (password === "paquita") {
@@ -28,6 +28,11 @@ do{
 } while {(numero <3)
 console.log(numero)
 }
+
+for (let i= 0; i<5; i= i+1);
+console.log(i)
+//esta funcion de do y while es un bucle y el while es el punto de fin. es necesario que haya un while
+//para que termine.
 
 
 
