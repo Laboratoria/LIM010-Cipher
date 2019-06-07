@@ -11,10 +11,10 @@ El proyecto consiste en dos funcionalidades principales y una secundaria , la pr
 ## Primer prototipo
 El prototipo en papel fué ideado de acuerdo a estilos similares en otras plataformas virtuales para maestros, se eligió un estilo sobrio.
 
-https://user-images.githubusercontent.com/51275990/59106753-cd5bea80-88fc-11e9-9ceb-aebfd93ef4e2.jpg
+ (https://user-images.githubusercontent.com/51275990/59106753-cd5bea80-88fc-11e9-9ceb-aebfd93ef4e2.jpg)
 
-##Resultados del feedback
+## Resultados del feedback
+
 Se cambió en value de los botones  y se incluyó el placeholder  para hacerlos más comprensibles para el publico objetivo. 
-https://user-images.githubusercontent.com/51275990/59106754-cdf48100-88fc-11e9-8d24-949140409f14.png
-
+ [first mo(https://user-images.githubusercontent.com/51275990/59106754-cdf48100-88fc-11e9-8d24-949140409f14.png)
 https://user-images.githubusercontent.com/51275990/59106755-cdf48100-88fc-11e9-85ff-e873282a32a5.png

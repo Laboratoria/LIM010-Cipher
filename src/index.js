@@ -4,7 +4,7 @@ const firstButton = document.getElementById("buttonnext")
 const vistalogin =document.getElementById("login")
 const vistacipher =document.getElementById("cipher")
 const vistacodigo=document.getElementById("codigo")
-document.getElementById("buttonnext").addEventListener("click",function enable(){
+document.getElementById("buttonnext").addEventListener("click",()=>{
   if(contraseña.value=="LABORATORIA"){
  
     vistalogin.style.display="none";
