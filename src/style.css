@@ -1,25 +1,29 @@
 /* Acá van tus reglas de estilo */
 body {
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,54,121,1) 46%, rgba(0,212,255,1) 100%);
-    width:auto  
+    background-image:url(https://www.sianet.com.pe/Clemente/App_Themes/Clemente/images/bg-colegio-ori-1.jpg);
+    width:auto;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
 }
-div{
+#cipher{
     background:transparent;
     height: 400px;
     width:50%;
     margin:auto;
-    display:block;
-}
-
+    display:block;}
 input{
   margin-bottom: 30px;
-  width: 80px;
   padding: 18px;
   box-sizing: 15Px;
   border: 1px solid #f79a0b;
   border-block-end-color: #f79a0b;
   border-radius: 15px;
-  text-align:center 
+  text-align:center;
+  width: 80px;
 }
 label{
     font-size:20px;
@@ -27,7 +31,7 @@ label{
     widows: 100%;
     font-family:"barlow";
     text-align:center;}
-.logeo {
+#login {
         background:#f7ad0b;
         width: 500px;
         border-radius: 30px;
@@ -35,14 +39,20 @@ label{
         padding: 10px;
         text-align: center;
         justify-content:center;
-        align-items: center;}s
+        align-items: center;
+        width: 300px;
+    height: 100%;
+    position: absolute;
+    }
 
 
 #login{
- display:block;}
+ display:block;
+}
 
 #cipher {
-    display:none;}
-#codigo{
     display:none;
+    width: 200px;
+    overflow: hidden
 }
+
