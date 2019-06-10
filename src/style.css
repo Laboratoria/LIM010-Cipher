@@ -1,9 +1,7 @@
+/*
 h1{
     color: rgba(36, 131, 240, 0.664);
     text-align: center;
-}
-h2{
-    color:blueviolet
 }
 
 * {
@@ -14,9 +12,10 @@ h2{
 }
 
 body{
-  background: color;
+  background: color ;
   display:flex;
   min-height: 100hv;
+  
 }
 
 form {
@@ -26,6 +25,64 @@ form {
     background: rgb(213, 214, 214);
     padding: 30px;
     border: 1px solid rgb(16, 16, 17)
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: fixed;
+    top: -50%;
+    left: calc(50% - 50%);
+}
+
+h2{
+    margin: 0px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(131, 106, 201)
+}
+
+.loginBox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold; 
+    color:rgb(161, 49, 49);
+}
+
+.loginBox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginBox input[type="text"], input[type="password"] {
+border: none;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height: 40px;
+color: rgb(0, 0, 0);
+font-size: 16px;
+}
+
+.loginBox input[type="submit"]
+{
+border: none;
+outline: none;
+height: 40px;
+background: #fb2525;
+color: #fff;
+font-size: 18px;
+border-radius: 20px;
+}
+
+.loginBox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+    opacity: 1;
 }
 
 input{
@@ -44,9 +101,6 @@ input[type="submit"] {
     cursor: pointer;
     border-radius: 20px;
     margin-bottom: 0;
-}
-input [type="submit"]:hover {
-    opacity: 1;
 }
 
 input[type="submit"]:active {
@@ -97,6 +151,7 @@ input[type="submit"]:active {
 .centrado {
    text-align: center;
 }
+*/
 
 .visible {
     display: block;

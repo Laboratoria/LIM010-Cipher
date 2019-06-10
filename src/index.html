@@ -10,22 +10,23 @@
 <body>
   <header></header>
   <main>
-    <div id="divLogin">
-      <h1>VENTAJA PROFESIONAL</h1><br>
+    <h1>VENTAJA PROFESIONAL</h1><br>
+    <div id="divLoginInbox" class="loginBox">
       <p>Bienvenid@ a este espacio donde podrás cifrar y descifrar todo tipo de texto.</p><br>
-      <p>Ingresa tu usuario y contraseña para comenzar:</p><br>
-      <form name="form" action="VentajaProfesional.com">
-        <div class="general">
-          <label>Usuario:</label> <input type="text" placeholder="&#9823; usuario" name="user">
-        </div>
-        <div class="general">
-          <label>Contraseña:</label> <input type="password" id="contraseña" placeholder="&#128272; contraseña" maxlength="12" name="password"><br><br>
-        </div>
+      <form>
+        <h2>Ingresa aqui:</h2><br>
+        <img src="./../userMale.png" class="avatar">
+        <p>Usuario</p>
+        <input id="getUsername" type="text" placeholder="&#128113; Ingrese Usuario">
+        <p>Contraseña</p>
+        <input id="getPassword" type="password" placeholder="&#128272; Ingrese Contraseña">
+        <input id="Ingresar" type="button" value="Ingresar">
 
-        <button type="button" id="enter">Enter</button>
       </form>
+
     </div>
-    <div id="divCipher">
+
+    <div id="divTransform">
       <p>Bienvenida</p>
       <p>Sabemos que muchas veces te quedaste con esta frase en tu cabeza después de una entrevista laboral: ¿Y donde
         esta mi feedback? ¿Debo pedirlo? ¿Porque no me han contratado? ¿Quizá hablé de más?
@@ -42,23 +43,30 @@
       <p>Ingresa tu mensaje aqui:</p><br>
       <textarea id="textAreaIn" placeholder="Ingresa tu texto aqui..."></textarea><br>
 
-          <label>Desplazamiento:</label>
-          <input id="inputOffset" type="number" placeholder="1" step="1" min="-100" max="100">
-          <input id="btnEncode" type="button"  value="Cifrar">
-          <input id="btnDecode" type="button"  value="Descifrar">
+      <label>Desplazamiento:</label>
+      <input id="inputOffset" type="number" placeholder="1" step="1" min="-100" max="100">
+      <input id="btnEncode" type="button" value="Cifrar">
+      <input id="btnDecode" type="button" value="Descifrar">
 
+
+
+      <p>Tu mensaje final es:</p>
+      <textarea id="textAreaOut" placeholder="Tu mensaje final es:"></textarea>
+      <input type="submit" value="Limpiar">
+      <input type="submit" value="Enviar">
+      <input type="submit" value="Salir">
+    </div>
+    <div id="divSendMail">
+      <p>Escribe aquí el correo de destino:</p>
+      <input type="text" name="email">
+      <input type="submit" value="Enviar Mensaje">
+      <input type="submit" value="Salir">
     </div>
 
-    <p>Tu mensaje final es:</p>
-    <textarea id="textAreaOut" placeholder="Tu mensaje final es:"></textarea>
-    <input type="submit" value="Limpiar">
-    <input type="submit" value="Enviar">
-    <input type="submit" value="Salir">
+    <div id="divNoAttempts">
+      <p>Ya utilizaste todos tus intentos, en este momento no podrás ingresar</p>
+    </div>
 
-    <p>Escribe aquí el correo de destino:</p>
-    <input type="text" name="email">
-    <input type="submit" value="Enviar Mensaje">
-    <input type="submit" value="Salir">
   </main>
 
   <footer></footer>

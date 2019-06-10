@@ -1,47 +1,70 @@
-/* Acá va tu código */
+const GLOBAL = {
+    usuarios: ['Alejandra', 'Rocio', 'Elizabeth'],
+    password: 'LABORATORIA',
+    loginAttempts: 0,
+    divisions: ['divLoginInbox', 'divTransform', 'divSendMail', 'divNoAttempts']
+};
 
-const password = document.getElementById('contraseña'.value);
-const enter = document.getElementById('enter');
-let contador = 0;
+const showOneHideAll = (divIdToShow) => {
+    GLOBAL.divisions.forEach((divId) => {
+        document.getElementById(divId).className = 'hidden';
+    });
+    document.getElementById(divIdToShow).className = 'visible';
+};
+
+showOneHideAll('divLoginInbox');
+
+let enter = document.getElementById('Ingresar');
 
 enter.addEventListener("click", () => {
-    const elementInput = document.getElementById('contraseña');
-    const password = elementInput.value;
-    console.log(password)
-}
-if (password === 2){
-contador = numero + 1
-}
-
-// const numero = si dentro del input, el usuario escribe un string y yo quiero pasarlo a number tengo que utilizar
-//parseInt
-
-// si password esigual a paquita entonces 'Bienvenida Paquita'
-if (password === "paquita") {
-    console.log("bienvenida")
-} else {
-
-}
-
-do{
-    console.log("numero menor que tres")
-} while {(numero <3)
-console.log(numero)
-}
-
-for (let i= 0; i<5; i= i+1);
-console.log(i)
-//esta funcion de do y while es un bucle y el while es el punto de fin. es necesario que haya un while
-//para que termine.
-
-
-
-function go() {
-    if (document.form.password.value == 'CONTRASEÑA' && document.form.login.value == 'USUARIO') {
-        document.form.submit();
+    GLOBAL.loginAttempts++;
+    const enteredUsername = document.getElementById('getUsername').value;
+    const enteredPassword = document.getElementById('getPassword').value;
+    if (GLOBAL.usuarios.includes(enteredUsername) && (GLOBAL.password === enteredPassword)) {
+        showOneHideAll('divTransform');
+    } else {
+        alert('Usuario y/o contrasenha incorrectos');
+        if (GLOBAL.loginAttempts === 3) {
+            showOneHideAll('divNoAttempts');
+        }
     }
-    else {
-        alert("Ya utilizaste todos tus intentos, en este momento no podrás ingresar.");
-    }
+});
+
+
+
+
+
+
+
+
+//PREGUNTAR: que pasa con css. 
+//PREGUNTAR: import { strict } from "assert"; porque sale error.
+
+
+/*
+ -> 4 FORMAS DE USAR FOR
+const GLOBAL = {
+    usuarios: ['Alejandra', 'Rocio', 'Elizabeth'],
+    password: 'LABORATORIA',
+    loginAttempts: 0,
+    divisions: ['divLoginInbox', 'divTransform', 'divSendMail', 'divNoAttempts']
+};
+
+for (let i=0; i<GLOBAL.divisions.length; i++){
+  console.log(GLOBAL.divisions[i]);
 }
 
+for (let divId of GLOBAL.divisions) {
+  console.log(divId);
+}
+
+GLOBAL.divisions.forEach(function(div){
+  console.log(div);
+});
+
+
+GLOBAL.divisions.forEach((div) => {
+    console.log(div);
+  });
+
+*/
