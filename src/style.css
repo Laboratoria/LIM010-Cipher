@@ -1,21 +1,25 @@
-/*
+
 h1{
     color: rgba(36, 131, 240, 0.664);
     text-align: center;
 }
 
-* {
-  marging: 0;
-  padding: 0;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  box-sizing: border-box; 
+body{
+    
+    background-color: rgb(253, 253, 253);
 }
 
-body{
-  background: color ;
-  display:flex;
-  min-height: 100hv;
-  
+#imagenPrincipal{
+float: right;
+margin-right: 50px;
+margin-bottom: 0px;
+width: 600px;
+height: 600px;
+}
+/*
+#divForm{
+    margin-left: 60px;
+    margin-top: 50px;
 }
 
 form {
@@ -26,24 +30,37 @@ form {
     padding: 30px;
     border: 1px solid rgb(16, 16, 17)
 }
+*/
+.loginBox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
 
-.avatar{
+.loginBox .avatar{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    position: fixed;
-    top: -50%;
-    left: calc(50% - 50%);
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
 }
 
-h2{
+.loginBox .h2{
     margin: 0px;
     padding: 0 0 20px;
     text-align: center;
     font-size: 22px;
     color: rgb(131, 106, 201)
 }
-
+/*
 .loginBox p{
     margin: 0;
     padding: 0;
@@ -152,7 +169,6 @@ input[type="submit"]:active {
    text-align: center;
 }
 */
-
 .visible {
     display: block;
 }

@@ -12,7 +12,7 @@ const showOneHideAll = (divIdToShow) => {
     document.getElementById(divIdToShow).className = 'visible';
 };
 
-showOneHideAll('divLoginInbox');
+// showOneHideAll('divLoginInbox');
 
 let enter = document.getElementById('Ingresar');
 
@@ -23,7 +23,7 @@ enter.addEventListener("click", () => {
     if (GLOBAL.usuarios.includes(enteredUsername) && (GLOBAL.password === enteredPassword)) {
         showOneHideAll('divTransform');
     } else {
-        alert('Usuario y/o contrasenha incorrectos');
+        alert('Usuario y/o contraseña incorrectos');
         if (GLOBAL.loginAttempts === 3) {
             showOneHideAll('divNoAttempts');
         }
