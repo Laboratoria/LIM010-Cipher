@@ -44,15 +44,19 @@ label{
     height: 100%;
     position: absolute;
     }
-
-
 #login{
  display:block;
 }
-
+#login.hide{
+    display:none
+}
 #cipher {
     display:none;
     width: 200px;
-    overflow: hidden
+    overflow: hidden;
+}
+#cipher.show{
+    display:block;
+
 }
 
