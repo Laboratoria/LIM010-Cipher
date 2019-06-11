@@ -2,7 +2,7 @@ const GLOBAL = {
     usuarios: ['Alejandra', 'Rocio', 'Elizabeth'],
     password: 'LABORATORIA',
     loginAttempts: 0,
-    divisions: ['divLoginInbox', 'divTransform', 'divSendMail', 'divNoAttempts']
+    divisions: ['divLoginInbox', 'divTransform', 'divNoAttempts']
 };
 
 const showOneHideAll = (divIdToShow) => {
@@ -12,10 +12,9 @@ const showOneHideAll = (divIdToShow) => {
     document.getElementById(divIdToShow).className = 'visible';
 };
 
-// showOneHideAll('divLoginInbox');
+showOneHideAll('divLoginInbox');
 
 let enter = document.getElementById('Ingresar');
-
 enter.addEventListener("click", () => {
     GLOBAL.loginAttempts++;
     const enteredUsername = document.getElementById('getUsername').value;
@@ -28,7 +27,56 @@ enter.addEventListener("click", () => {
             showOneHideAll('divNoAttempts');
         }
     }
+    document.getElementById('getUsername').value = '';
+    document.getElementById('getPassword').value = '';
 });
+
+let clean = document.getElementById('btnClean');
+clean.addEventListener("click", () => {
+    document.getElementById('textAreaIn').value = '';
+    document.getElementById('textAreaOut').value = '';
+    document.getElementById('inputOffset').value = '';
+});
+
+let exit = document.getElementById('btnExit');
+exit.addEventListener("click", () => {
+    showOneHideAll('divLoginInbox');
+});
+
+let send = document.getElementById('btnSend');
+send.addEventListener("click", () => {
+    let email = prompt('Escribe aqui un correo electronico:');
+    let subject = 'Envio codigo cifrado-descifrado';
+    let body = document.getElementById('textAreaOut').value;
+    window.open(`mailto:${email}?subject=${subject}&body=${body}`);
+});
+
+let encode = document.getElementById('btnEncode');
+encode.addEventListener("click", () => {
+    let offset = document.getElementById('inputOffset').value;
+    console.log(offset);
+    let string = document.getElementById('textAreaIn').value;
+    console.log(string);
+    console.log(cipher.encode);
+    let transformedText = cipher.encode(offset, string);
+    console.log(transformedText);
+    document.getElementById('textAreaOut').value = transformedText;
+    console.log(document.getElementById('textAreaOut').value);
+});
+
+let decode = document.getElementById('btnDecode');
+decode.addEventListener("click", () => {
+    let offset = document.getElementById('inputOffset').value;
+    console.log(offset);
+    let string = document.getElementById('textAreaOut').value;
+    console.log(string);
+    console.log(cipher.encode);
+    let transformedText = cipher.decode(offset, string);
+    console.log(transformedText);
+    document.getElementById('textAreaOut').value = transformedText;
+    console.log(document.getElementById('textAreaOut').value);
+});
+
 
 
 

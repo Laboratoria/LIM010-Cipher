@@ -1,4 +1,4 @@
-import { strict } from "assert";
+//import { strict } from "assert";
 
 window.cipher = {
   encode: (offset, string) => {

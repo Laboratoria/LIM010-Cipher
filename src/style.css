@@ -5,10 +5,18 @@ h1{
 }
 
 body{
-    
     background-color: rgb(253, 253, 253);
 }
 
+.visible {
+    display: block;
+}
+
+.hidden {
+   display: none; 
+}
+
+/*
 #imagenPrincipal{
 float: right;
 margin-right: 50px;
@@ -16,7 +24,7 @@ margin-bottom: 0px;
 width: 600px;
 height: 600px;
 }
-/*
+
 #divForm{
     margin-left: 60px;
     margin-top: 50px;
@@ -30,7 +38,7 @@ form {
     padding: 30px;
     border: 1px solid rgb(16, 16, 17)
 }
-*/
+
 .loginBox{
     width: 320px;
     height: 420px;
@@ -169,9 +177,4 @@ input[type="submit"]:active {
    text-align: center;
 }
 */
-.visible {
-    display: block;
-}
-.hidden {
-   display: none; 
-}
+

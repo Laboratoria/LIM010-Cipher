@@ -11,9 +11,9 @@
   <header></header>
   <main>
     <h1>VENTAJA PROFESIONAL</h1><br>
-    <p>Bienvenid@ a este espacio donde podrás cifrar y descifrar todo tipo de texto.</p>
-    <img src="../images/imagen princ.jpg" id="imagenPrincipal"/>
     <div id="divLoginInbox" class="loginBox">
+      <p>Bienvenid@ a este espacio donde podrás cifrar y descifrar todo tipo de texto.</p>
+    <img src="../images/imagen princ.jpg" id="imagenPrincipal"/>
       <h2>Ingresa aqui:</h2>
       <form>
         <img src="./../userMale.png" class="avatar">
@@ -22,9 +22,7 @@
         <p>Contraseña</p>
         <input id="getPassword" type="password" placeholder="&#128272; Ingrese Contraseña">
         <input id="Ingresar" type="button" value="Ingresar">
-
       </form>
-
     </div>
 
     <div id="divTransform">
@@ -49,21 +47,13 @@
       <input id="btnEncode" type="button" value="Cifrar">
       <input id="btnDecode" type="button" value="Descifrar">
 
-
-
       <p>Tu mensaje final es:</p>
-      <textarea id="textAreaOut" placeholder="Tu mensaje final es:"></textarea>
-      <input type="submit" value="Limpiar">
-      <input type="submit" value="Enviar">
-      <input type="submit" value="Salir">
+      <textarea disabled id="textAreaOut" placeholder="Tu mensaje final es:"></textarea>
+      <input id="btnClean" type="button" value="Limpiar">
+      <input id="btnSend" type="button" value="Enviar">
+      <input id="btnExit" type="button" value="Salir">
     </div>
-    <div id="divSendMail">
-      <p>Escribe aquí el correo de destino:</p>
-      <input type="text" name="email">
-      <input type="submit" value="Enviar Mensaje">
-      <input type="submit" value="Salir">
-    </div>
-
+ 
     <div id="divNoAttempts">
       <p>Ya utilizaste todos tus intentos, en este momento no podrás ingresar</p>
     </div>
