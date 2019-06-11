@@ -4,7 +4,7 @@ const firstButton = document.getElementById("buttonnext")
 const vistalogin =document.getElementById("login")
 const vistacipher =document.getElementById("cipher")
 const botonCifrado=document.getElementById("buttoncifrar")
-const botonDescifrado=document.getElementById("buttondecifrar")
+const botonDescifrado=document.getElementById("buñttondecifrar")
 const botonSalir=document.getElementById("buttonexit")
 let contador = 0
 document.getElementById("buttonnext").addEventListener("click",()=>{
@@ -22,15 +22,14 @@ document.getElementById("buttonnext").addEventListener("click",()=>{
 botonCifrado.addEventListener("click",()=>{
   let datatocode=document.getElementById("Datos").value;
   let offsettocode=document.getElementById("offset").value;
-  let codigoListo=window.cipher.encode(offsettocode,datatocode);
-  document.getElementById("Codigo").value=codigoListo;
+  let codigoListo=window.cipher.encode(offset,string);
+  document.getElementById("Código").value=codigoListo;
 }
 )
  botonDescifrado.addEventListener("click",()=>{
-let codigotodecode=document.getElementById("Código").value;
-let offsertodecode=document.getElementById("offset").value;
-let datoListo=window.cipher.decode(offsettocode,codigotodecode);
-document.getElementById("Datos").value=datoListo;
+  let codigotodecode=document.getElementById("Código").value;
+  let offsettodecode=document.getElementById("offset").value;
+document.getElementById("Datos").value= datoListo;
  })
  botonSalir.addEventListener("click",()=>{
    location.reload()
