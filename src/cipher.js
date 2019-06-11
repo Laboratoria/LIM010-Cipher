@@ -1,18 +1,15 @@
 window.cipher = {
-  encode: (offset, string) => {
+  encode: (offsettocode, datatocode) => {
     /* Acá va tu código que cifra*/
-    codificador =>{
-      let texto = document.getElementById("offset").value;
-      let number = document.getElementById("Datos").value;
-      let key=Number(f);
-      console.log(key);
-      let resiltado="";
-      for (let i=0,len=x.lenght;i<len;i++){
-        if(x[i]==)
+    let cifrardato="";
+    for(let i=0;i<datatocode;i++){
+      if(datatocode.charCodeAt(i)-97 && datatocode.charCodeAt(i)<=122){
+        let cifrado=(datatocode.charCodeAt(i)- 97 + parseInt(offsettocode))% 26 +97;
+        
       }
     }
-
   },
+
   decode: (offset, string) => {
     /* Acá va tu código que descifra*/
   }
