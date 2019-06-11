@@ -19,6 +19,7 @@ enter.addEventListener("click", () => {
     GLOBAL.loginAttempts++;
     const enteredUsername = document.getElementById('getUsername').value;
     const enteredPassword = document.getElementById('getPassword').value;
+    console.log(enteredPassword);
     if (GLOBAL.usuarios.includes(enteredUsername) && (GLOBAL.password === enteredPassword)) {
         showOneHideAll('divTransform');
     } else {
@@ -53,7 +54,7 @@ send.addEventListener("click", () => {
 
 let encode = document.getElementById('btnEncode');
 encode.addEventListener("click", () => {
-    let offset = document.getElementById('inputOffset').value;
+    let offset = parseInt(document.getElementById('inputOffset').value);
     console.log(offset);
     let string = document.getElementById('textAreaIn').value;
     console.log(string);

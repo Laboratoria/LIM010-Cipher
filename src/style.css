@@ -16,7 +16,7 @@ body{
    display: none; 
 }
 
-/*
+
 #imagenPrincipal{
 float: right;
 margin-right: 50px;
@@ -24,7 +24,7 @@ margin-bottom: 0px;
 width: 600px;
 height: 600px;
 }
-
+/*
 #divForm{
     margin-left: 60px;
     margin-top: 50px;
@@ -68,7 +68,7 @@ form {
     font-size: 22px;
     color: rgb(131, 106, 201)
 }
-/*
+
 .loginBox p{
     margin: 0;
     padding: 0;

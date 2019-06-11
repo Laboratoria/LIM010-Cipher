@@ -1,5 +1,3 @@
-//import { strict } from "assert";
-
 window.cipher = {
   encode: (offset, string) => {
     let result = '';
