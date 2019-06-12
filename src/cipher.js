@@ -8,7 +8,7 @@ window.cipher = {
       } else {
         result += c;
       }
-    };
+    }
     return result;
   },
   decode: (offset, string) => {
@@ -20,7 +20,7 @@ window.cipher = {
       } else {
         result += c;
       }
-    };
+    }
     return result;
   }
 };

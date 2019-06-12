@@ -19,7 +19,6 @@ enter.addEventListener("click", () => {
     GLOBAL.loginAttempts++;
     const enteredUsername = document.getElementById('getUsername').value;
     const enteredPassword = document.getElementById('getPassword').value;
-    console.log(enteredPassword);
     if (GLOBAL.usuarios.includes(enteredUsername) && (GLOBAL.password === enteredPassword)) {
         showOneHideAll('divTransform');
     } else {
@@ -55,27 +54,17 @@ send.addEventListener("click", () => {
 let encode = document.getElementById('btnEncode');
 encode.addEventListener("click", () => {
     let offset = parseInt(document.getElementById('inputOffset').value);
-    console.log(offset);
     let string = document.getElementById('textAreaIn').value;
-    console.log(string);
-    console.log(cipher.encode);
     let transformedText = cipher.encode(offset, string);
-    console.log(transformedText);
     document.getElementById('textAreaOut').value = transformedText;
-    console.log(document.getElementById('textAreaOut').value);
 });
 
 let decode = document.getElementById('btnDecode');
 decode.addEventListener("click", () => {
     let offset = document.getElementById('inputOffset').value;
-    console.log(offset);
     let string = document.getElementById('textAreaOut').value;
-    console.log(string);
-    console.log(cipher.encode);
     let transformedText = cipher.decode(offset, string);
-    console.log(transformedText);
     document.getElementById('textAreaOut').value = transformedText;
-    console.log(document.getElementById('textAreaOut').value);
 });
 
 
