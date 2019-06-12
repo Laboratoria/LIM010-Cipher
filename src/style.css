@@ -1,7 +1,13 @@
 
 h1{
-    color: rgba(36, 131, 240, 0.664);
-    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    color: rgba(158, 36, 240, 0.664);
+    background:url('../images/Profesional.png');
+    background-repeat: no-repeat;
+    margin: 0px;
+    width: 1000px;
+    height: 230px;
 }
 
 body{
@@ -16,43 +22,35 @@ body{
    display: none; 
 }
 
-
 #imagenPrincipal{
-float: right;
+float: left;
 margin-right: 50px;
 margin-bottom: 0px;
-width: 600px;
-height: 600px;
-}
-/*
-#divForm{
-    margin-left: 60px;
-    margin-top: 50px;
+width: 500px;
+height: 500px;
 }
 
-form {
-    margin: auto;
-    width: 50%;
-    max-width: 500px;
-    background: rgb(213, 214, 214);
-    padding: 30px;
-    border: 1px solid rgb(16, 16, 17)
+#fraseIntro{
+    color: blueviolet;
+    font-size: 20px;
+    float: right;
 }
 
-.loginBox{
+#loginForm {
     width: 320px;
     height: 420px;
-    background: #000;
-    color: #fff;
+    background: rgb(110, 97, 219);
+    color: rgb(195, 197, 41);
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
+    border: 1px solid black;
     padding: 70px 30px;
 }
 
-.loginBox .avatar{
+.avatar{
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -61,6 +59,7 @@ form {
     left: calc(50% - 50px);
 }
 
+/*
 .loginBox .h2{
     margin: 0px;
     padding: 0 0 20px;
