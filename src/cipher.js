@@ -3,7 +3,7 @@ window.cipher = {
     let cod="";
     for(let i=0;i<string.length;i++) {
       let numascii=string[i].charCodeAt();
-      if (numascci >=65 && numascii<=90){
+      if (numascii >=65 && numascii<=90){
         cod += String.fromCharCode((parseInt(offset)+ numascii - 65 ) % 26 + 65);
       } else {
         cod=string[i];
