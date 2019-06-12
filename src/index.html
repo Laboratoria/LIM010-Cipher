@@ -24,24 +24,27 @@
       <h2>Ingresar el número de espacios</h2>
     </label>
     <br>
-    <input type="number" id="offset" placeholder="incluir el offset">
+    <input type="number" min=0 id="num" placeholder="incluir el offset">
     <label for="text">
-    <
+
       <h2>Datos Originales</h2>
     </label>
     <br>
-    <textarea class="textBox" id="Datos" cols="30  placeholder="ej.Pancrasia Rupertoncia de Cañón,PRC"></textarea>
-    <button id="buttoncifrar">CIFRAR</button>
+    <input type="text" id="Datos" cols="30  placeholder=" ej.Pancrasia Rupertoncia de Cañón,PRC"></textarea>
+
     <label for="text">
       <h2>Código de estudiante</h2>
     </label>
     <br>
-    <textarea class="textBox" id="Código" placeholder="ej.GRF"></textarea>
-    <button id="buttondecifrar">DECIFRAR</button>
+    <output type="text" id="Código" placeholder="ej.GRF"></textarea>
+
 
   </div>
   <div>
-    <button id="buttonexit">SALIR</button>
+    <input type="button" value="SALIR" id="buttonexit">
+    <input type="button" id="buttoncifrar" value="cifrar">
+    <input type="button" id="buttondecifrar" value="Descifrar">
+    <input type="button" id="clear" value="limpiar">
   </div>
   </main>
   <footer></footer>

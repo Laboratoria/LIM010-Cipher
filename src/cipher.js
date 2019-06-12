@@ -1,16 +1,38 @@
 window.cipher = {
-  encode: (offsettocode, datatocode) => {
-    /* Acá va tu código que cifra*/
-    let cifrardato="";
-    for(let i=0;i<datatocode;i++){
-      if(datatocode.charCodeAt(i)-97 && datatocode.charCodeAt(i)<=122){
-        let cifrado=(datatocode.charCodeAt(i)- 97 + parseInt(offsettocode))% 26 +97;
-        
+  encode: (offset, string) => {
+    let cod="";
+    for(let i=0;i<string.length;i++) {
+      let numascii=string[i].charCodeAt();
+      if (numascii >=65 && numascii<=90){
+        cod += String.fromCharCode((parseInt(offset)+ numascii - 65 ) % 26 + 65);
+      } else {
+        cod=string[i];
       }
     }
-  },
+    return cod;
 
+  },
   decode: (offset, string) => {
-    /* Acá va tu código que descifra*/
+    let dec = '';
+    for (let i = 0; i < string.length; i++) {
+      let numascii = string[i].charCodeAt();
+      if ((numascii >= 65) && (numascii <= 90)) {
+        if (numascii >= 65 + parseInt(offset) % 26) {
+          dec += String.fromCharCode((numascii - parseInt(offset) % 26 - 65) + 65);
+        } else {
+          dec += String.fromCharCode((numascii- parseInt(offset) % 26 + 26));
+        }
+      } else {
+        dec += phrase[i];
+      }
+    }
+    return dec;
+  },
+  createCipherWithOffset: (offset) => {
+    return {
+      encode: (string) => { cipher.encode(offset, string); },
+      decode: (string) => { cipher.decode(offset, string); }
+    }
   }
-};
+}
+
