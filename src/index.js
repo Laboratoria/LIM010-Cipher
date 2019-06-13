@@ -19,6 +19,7 @@ enter.addEventListener("click", () => {
     GLOBAL.loginAttempts++;
     const enteredUsername = document.getElementById('getUsername').value;
     const enteredPassword = document.getElementById('getPassword').value;
+    document.getElementById('welcome').innerText = `¡Bienvenida ${enteredUsername}!`;
     if (GLOBAL.usuarios.includes(enteredUsername) && (GLOBAL.password === enteredPassword)) {
         showOneHideAll('divTransform');
     } else {

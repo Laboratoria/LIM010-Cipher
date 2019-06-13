@@ -26,7 +26,7 @@ body{
 float: left;
 margin-right: 50px;
 margin-bottom: 0px;
-width: 500px;
+width: 600px;
 height: 500px;
 }
 
@@ -38,16 +38,17 @@ height: 500px;
 
 #loginForm {
     width: 320px;
-    height: 420px;
-    background: rgb(110, 97, 219);
-    color: rgb(195, 197, 41);
-    top: 50%;
-    left: 50%;
+    height: 300px;
+    background: rgb(148, 141, 214);
+    color: rgb(255, 255, 255);
+    top: 79%;
+    left: 60%;
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
     border: 1px solid black;
-    padding: 70px 30px;
+    padding: 70px 40px;
+    padding-bottom: 20px;
 }
 
 .avatar{
@@ -59,22 +60,21 @@ height: 500px;
     left: calc(50% - 50px);
 }
 
-/*
-.loginBox .h2{
+h2{
     margin: 0px;
     padding: 0 0 20px;
     text-align: center;
     font-size: 22px;
-    color: rgb(131, 106, 201)
+    color: rgb(6, 118, 133)
 }
 
-.loginBox p{
-    margin: 0;
-    padding: 0;
+#loginForm p{
+    font-family: sans-serif;
     font-weight: bold; 
-    color:rgb(161, 49, 49);
+    font-size: 16px;
+    color:rgb(71, 73, 73);
 }
-
+/*
 .loginBox input{
     width: 100%;
     margin-bottom: 20px;
