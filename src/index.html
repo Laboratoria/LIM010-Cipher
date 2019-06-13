@@ -11,7 +11,7 @@
   <header></header>
   <main>
     <h1></h1><br>
-    <div id="divLoginInbox" class="loginBox">
+    <div id="divLoginInbox">
       <p id="fraseIntro">En este espacio podrás cifrar y descifrar todo tipo de texto.</p>
     <img src="../images/imagen princ.jpg" id="imagenPrincipal"/>
       <form id="loginForm"> 
@@ -27,19 +27,14 @@
 
     <div id="divTransform">
       <p id="welcome">Bienvenida</p>
-      <p>Sabemos que muchas veces te quedaste con esta frase en tu cabeza después de una entrevista laboral: ¿Y donde
-        esta mi feedback? ¿Debo pedirlo? ¿Porque no me han contratado? ¿Quizá hablé de más?
-        A todos nos ayudaría mucho recibir un feedback constructivo porque nos da chance de poder mejorar en aspectos
-        que no hemos desarrollado bien para luego presentarnos a otra entrevista y tener mas oportunidades para ser
-        contratados. Sin embargo, sabemos que las empresas no estan obligadas a darlo pero lo que si se sabe es que es
-        una herramienta de desarrollo profesional que guía a los candidatos ya que les ayuda a entender qué falla en su
-        currículum, discurso o actitud. Sin una valoración crítica, repetiremos los mismos errores y crearemos una
-        sensación de fracaso permanente que nos hará más frágiles y acabaremos perdiendo confianza en nosotros mismos.
-        En este espacio, podrás conocer el feedback que necesitas para mejorar tus habilidades de una manera rapida,
+      <p id="fraseIntroDos">Ahora podrás conocer el feedback que necesitas 
+        para mejorar tus habilidades de una manera rapida,
         sencilla y gratuita.
 
-        Escribe tu mensaje, elije el desplazamiento que gustes, elije cifrar o descifrar y ¡listo! ¡Empecemos!</p><br>
-      <p>Ingresa tu mensaje aqui:</p><br>
+        Escribe tu feedback, elije el desplazamiento que gustes;
+        luego, elije cifrar o descifrar y ¡listo! 
+        ¡Empecemos!</p>
+      <p id="addFeedback">Ingresa tu feedback constructivo aqui:</p><br>
       <textarea id="textAreaIn" placeholder="Ingresa tu texto aqui..."></textarea><br>
 
       <label>Desplazamiento:</label>
@@ -47,7 +42,7 @@
       <input id="btnEncode" type="button" value="Cifrar">
       <input id="btnDecode" type="button" value="Descifrar">
 
-      <p>Tu mensaje final es:</p>
+      <p id="showFeedback">Tu feedback constructivo final es:</p>
       <textarea disabled id="textAreaOut" placeholder="Tu mensaje final es:"></textarea>
       <input id="btnClean" type="button" value="Limpiar">
       <input id="btnSend" type="button" value="Enviar">
@@ -60,7 +55,7 @@
 
   </main>
 
-  <footer>
+  <footer id="footer">
     <span style="text-decoration:underline rgb(28, 38, 177)">&#169; 2019 - página creada por Alejandra Visa - Todos los derechos resrevados</span>
   </footer> 
   <script src="cipher.js"></script>
