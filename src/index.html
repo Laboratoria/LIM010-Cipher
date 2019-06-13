@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <header></header>
+  <header><img src="../images/VentajaProfesional.png" alt=""></header>
   <main>
     <h1></h1><br>
     <div id="divLoginInbox">
@@ -16,7 +16,7 @@
     <img src="../images/imagen princ.jpg" id="imagenPrincipal"/>
       <form id="loginForm"> 
         <h2>Ingresa aqui:</h2>
-        <img src="./../images/avatar3.png" class="avatar">
+        <img src="./../images/profile-user.png" class="avatar">
         <p>Usuario</p>
         <input id="getUsername" type="text" placeholder="&#128113;| Ingrese Usuario">
         <p>Contraseña</p>
@@ -34,19 +34,24 @@
         Escribe tu feedback, elije el desplazamiento que gustes;
         luego, elije cifrar o descifrar y ¡listo! 
         ¡Empecemos!</p>
-      <p id="addFeedback">Ingresa tu feedback constructivo aqui:</p><br>
+      <p id="addFeedback">Ingresa tu feedback constructivo aqui:</p>
+      <form id="formTextAreaIn">
       <textarea id="textAreaIn" placeholder="Ingresa tu texto aqui..."></textarea><br>
 
       <label>Desplazamiento:</label>
       <input id="inputOffset" type="number" placeholder="1" step="1" min="-100" max="100">
       <input id="btnEncode" type="button" value="Cifrar">
-      <input id="btnDecode" type="button" value="Descifrar">
+      <input id="btnDecode" type="button" value="Descifrar">  
+      </form>   
 
+      <form id="formTextAreaOut"> 
       <p id="showFeedback">Tu feedback constructivo final es:</p>
       <textarea disabled id="textAreaOut" placeholder="Tu mensaje final es:"></textarea>
       <input id="btnClean" type="button" value="Limpiar">
       <input id="btnSend" type="button" value="Enviar">
       <input id="btnExit" type="button" value="Salir"><br>
+      </form>
+      </div>
     </div>
  
     <div id="divNoAttempts">

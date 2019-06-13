@@ -1,13 +1,5 @@
-
-h1{
-    font-family: cursive;
-    font-size: 50px;
-    color: rgba(158, 36, 240, 0.664);
-    background:url('../images/Profesional.png');
-    background-repeat: no-repeat;
-    margin: 0px;
-    width: 1000px;
-    height: 230px;
+body {
+    max-width: 1500px;
 }
 
 .visible {
@@ -21,9 +13,10 @@ h1{
 #imagenPrincipal{
 float: left;
 margin-right: 50px;
-margin-bottom: 0px;
-width: 600px;
-height: 500px;
+margin-top: -20px;
+margin-bottom: -5px;
+width: 700px;
+height: 550px;
 }
 
 #footer {
@@ -35,8 +28,12 @@ height: 500px;
 
 #fraseIntro{
     color: blueviolet;
-    font-size: 20px;
-    float: right;
+    letter-spacing: 2pt;
+    font-size: 25px;
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    left: 920px;
 }
 
 #loginForm {
@@ -44,8 +41,8 @@ height: 500px;
     height: 350px;
     background: rgb(148, 141, 214);
     color: rgb(255, 255, 255);
-    top: 79%;
-    left: 60%;
+    top: 73%;
+    left: 70%;
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
@@ -105,25 +102,34 @@ border-radius: 20px;
 #loginForm input[type="button"]:hover
 {
     cursor: pointer;
-    background: rgb(6, 118, 133);
+    background: rgb(54, 209, 201);
     color: #000;
     opacity: 1;
 }
-
+/*
 @media (max-width:480px){
         width: 95%;
 }
-
+*/
 #welcome{
     font-family: oblique bold;
     font-size: 20px;
     color: #2e159c;
 }
+#fraseIntroDos{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
 #textAreaIn {
     width: 400px;
     height: 200px;
 }
 
+#inputOffset{
+    height: 15px;
+    width: 50px;
+}
 #btnEncode {
     font-family: sans-serif;
     width: 8%;
@@ -145,4 +151,27 @@ border-radius: 20px;
     height: 200px;
 }
 
+#btnClean{
+    font-family: sans-serif;
+    width: 8%;
+    padding: 5px;
+    border: rgb(15, 15, 15) 1px solid;
+    border-radius: 20px;
+}
+
+#btnSend{
+    font-family: sans-serif;
+    width: 8%;
+    padding: 5px;
+    border: rgb(15, 15, 15) 1px solid;
+    border-radius: 20px;
+}
+
+#btnExit{
+    font-family: sans-serif;
+    width: 8%;
+    padding: 5px;
+    border: rgb(15, 15, 15) 1px solid;
+    border-radius: 20px;
+}
 
