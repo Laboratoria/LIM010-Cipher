@@ -8,43 +8,40 @@
 </head>
 
 <body>
-  <header> IMAGEN </header>
-  <div id="login" class="hidden">
-    <label for="text">
-      <h2>Creador de código de estudiante</h2>
-    </label>
+  <header> <img src="Liaison.png" id="imagen"></header>
+  <h1>Creador de código de estudiante</h1>
+  <main>
+  <div id="login" class="login">
+    <div class="login-header">
+    </div>
     <br>
     <div id="error"></div>
-    <input type="password" id="contraseña" placeholder="introducir contraseña">
+    <div class="form"></div>
+    <input type="password" id="contraseña" class="contraseña" placeholder="introducir contraseña">
     <br>
-    <button id="buttonnext">ENTRAR</button>
+    <button id="buttonnext" class="login-button">ENTRAR</button>
   </div>
-  <div id="cipher" class="h">
+  <div id="cipher" >
     <label for="text">
-      <h2>Ingresar el número de espacios</h2>
+      <h2>Offset</h2>
     </label>
     <br>
-    <input type="number" min=0 id="num" placeholder="incluir el offset">
+    <input type="number" min="0" id="num">
     <label for="text">
 
-      <h2>Datos Originales</h2>
+      <h2>Datos</h2>
     </label>
     <br>
-    <input type="text" id="Datos" cols="30  placeholder=" ej.Pancrasia Rupertoncia de Cañón,PRC"></textarea>
+    <textarea id="Datos" cols="30"></textarea>
 
     <label for="text">
-      <h2>Código de estudiante</h2>
+      <h2>Código</h2>
     </label>
     <br>
-    <output type="text" id="Código" placeholder="ej.GRF"></textarea>
-
-
-  </div>
-  <div>
-    <input type="button" value="SALIR" id="buttonexit">
-    <input type="button" id="buttoncifrar" value="cifrar">
+    <textarea id="Codigo" cols="30" ></textarea>
+    <input type="button" id="buttoncifrar" value="Cifrar">
     <input type="button" id="buttondecifrar" value="Descifrar">
-    <input type="button" id="clear" value="limpiar">
+    <input type="button" id="clear" value="Clean">
   </div>
   </main>
   <footer></footer>
