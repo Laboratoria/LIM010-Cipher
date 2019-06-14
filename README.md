@@ -10,11 +10,10 @@ Por lo mencionado, el producto va dirigido a maestros o directores de institucio
 El proyecto consiste en dos funcionalidades principales y una secundaria , la primera realiza la encriptación del nombre o iniciales del alumno,los cuales se usan para crear un nuevo código; la segunda funcionalidad acceder a los datos del alumno incluyendo el código otorgado anteriormente gracias a la funcionalidad del desencriptado y finalmente la tercera funcionalidad permite al maestro configurar el número de *offsets que cada letra del nombre o iniciales del alumno correrán en el abecedario para cambiar así por otra letra siguiente de acuerdo al número a incluir. 
 ## Primer prototipo
 El prototipo en papel fué ideado de acuerdo a estilos similares en otras plataformas virtuales para maestros, se eligió un estilo sobrio.
-
- (https://user-images.githubusercontent.com/51275990/59106753-cd5bea80-88fc-11e9-9ceb-aebfd93ef4e2.jpg)
-
+![59106753-cd5bea80-88fc-11e9-9ceb-aebfd93ef4e2](https://user-images.githubusercontent.com/51275990/59510525-88463400-8e79-11e9-9774-232a79fe9fe0.jpg)
 ## Resultados del feedback
 
 Se cambió en value de los botones  y se incluyó el placeholder  para hacerlos más comprensibles para el publico objetivo. 
- [first mo(https://user-images.githubusercontent.com/51275990/59106754-cdf48100-88fc-11e9-8d24-949140409f14.png)
-https://user-images.githubusercontent.com/51275990/59106755-cdf48100-88fc-11e9-85ff-e873282a32a5.png
+![59106754-cdf48100-88fc-11e9-8d24-949140409f14](https://user-images.githubusercontent.com/51275990/59510526-8a0ff780-8e79-11e9-8291-66bd9cf00b64.png)
+
+![59106755-cdf48100-88fc-11e9-85ff-e873282a32a5](https://user-images.githubusercontent.com/51275990/59510528-8b412480-8e79-11e9-8dd4-ddd715d420d3.png)
