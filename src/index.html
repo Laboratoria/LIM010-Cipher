@@ -8,41 +8,43 @@
 </head>
 
 <body>
-  <header> <img src="Liaison.png" id="imagen"></header>
+  <header>
+    <img src="Liaison.png" id="imagen">
+  </header>
   <h1>Creador de código de estudiante</h1>
   <main>
-  <div id="login" class="login">
-    <div class="login-header">
+    <div id="login" class="login">
+      <div class="login-header">
+      </div>
+      <br>
+      <div id="error"></div>
+      <div class="form"></div>
+      <input type="password" id="contraseña" class="contraseña" placeholder="introducir contraseña">
+      <br>
+      <button id="buttonnext" class="login-button">ENTRAR</button>
     </div>
-    <br>
-    <div id="error"></div>
-    <div class="form"></div>
-    <input type="password" id="contraseña" class="contraseña" placeholder="introducir contraseña">
-    <br>
-    <button id="buttonnext" class="login-button">ENTRAR</button>
-  </div>
-  <div id="cipher" >
-    <label for="text">
-      <h2>Offset</h2>
-    </label>
-    <br>
-    <input type="number" min="0" id="num">
-    <label for="text">
+    <div id="cipher">
+      <label for="text">
+        <h2>Offset</h2>
+      </label>
+      <br>
+      <input type="number" min="0" id="num">
+      <label for="text">
 
-      <h2>Datos</h2>
-    </label>
-    <br>
-    <textarea id="Datos" cols="30"></textarea>
+        <h2>Datos</h2>
+      </label>
+      <br>
+      <textarea id="Datos" cols="30"></textarea>
 
-    <label for="text">
-      <h2>Código</h2>
-    </label>
-    <br>
-    <textarea id="Codigo" cols="30" ></textarea>
-    <input type="button" id="buttoncifrar" value="Cifrar">
-    <input type="button" id="buttondecifrar" value="Descifrar">
-    <input type="button" id="clear" value="Clean">
-  </div>
+      <label for="text">
+        <h2>Código</h2>
+      </label>
+      <br>
+      <textarea id="Codigo" cols="30"></textarea>
+      <input type="button" id="buttoncifrar" value="Cifrar">
+      <input type="button" id="buttondecifrar" value="Descifrar">
+      <input type="button" id="clear" value="Clean">
+    </div>
   </main>
   <footer></footer>
   <script src="cipher.js"></script>

@@ -28,7 +28,7 @@ botonCifrado.addEventListener("click", () => {
   document.getElementById("Codigo").innerHTML = cipher.encode(offset, string);
 })
 botonDescifrado.addEventListener("click", () => {
-  let string = document.getElementById("Codigo").value;
+  let string = document.getElementById("Codigo").value.toUpperCase();
   let offset = parseInt(document.getElementById("num").value);
   document.getElementById("Datos").innerHTML = cipher.decode(offset, string);
  
