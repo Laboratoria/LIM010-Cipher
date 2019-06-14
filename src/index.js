@@ -46,8 +46,8 @@ exit.addEventListener("click", () => {
 
 let send = document.getElementById('btnSend');
 send.addEventListener("click", () => {
-    let email = prompt('Escribe aqui un correo electronico:');
-    let subject = 'Envio codigo cifrado-descifrado';
+    let email = prompt('Escribe aqui un correo electrónico:');
+    let subject = 'Envío codigo cifrado-descifrado';
     let body = document.getElementById('textAreaOut').value;
     window.open(`mailto:${email}?subject=${subject}&body=${body}`);
 });
@@ -62,7 +62,7 @@ encode.addEventListener("click", () => {
 
 let decode = document.getElementById('btnDecode');
 decode.addEventListener("click", () => {
-    let offset = document.getElementById('inputOffset').value;
+    let offset = parseInt(document.getElementById('inputOffset').value);
     let string = document.getElementById('textAreaOut').value;
     let transformedText = cipher.decode(offset, string);
     document.getElementById('textAreaOut').value = transformedText;
