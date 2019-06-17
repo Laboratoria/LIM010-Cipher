@@ -31,6 +31,10 @@ describe('cipher', () => {
     it('debería retornar "4Ñ" para "4Ñ" con offset 2', () => {
       assert.equal(cipher.decode(2,'4Ñ'), '4Ñ');
     });
+
+    it('debería retornar "lspe epinerhve" para "hola alejandra" con offset 30', () => {
+      assert.equal(cipher.decode(30,'hola alejandra'), 'lspe epinerhve');
+    });
   });
 
 });

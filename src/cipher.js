@@ -11,6 +11,7 @@ window.cipher = {
     }
     return result;
   },
+
   decode: (offset, string) => {
     let decodedString = '';
     offset = Math.abs(offset) % 26;
@@ -26,4 +27,5 @@ window.cipher = {
       }
     }
     return decodedString;
-  };
+  }
+};
