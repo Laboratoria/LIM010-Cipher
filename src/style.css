@@ -14,6 +14,10 @@ body {
     display: none; 
 }
 
+h1{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
 @media screen and (max-width: 600px){
 header img{
 width: 340px;
@@ -51,7 +55,7 @@ main{
   height: 230px;
   background: rgb(148, 141, 214);
   color: rgb(255, 255, 255);
-  top: 50%;
+  top: 60%;
   left: 50%;
   position: absolute;
   transform: translate(-50%,-50%);
@@ -124,7 +128,7 @@ h2{
 }
 .divContainer{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-around;
 }
 
@@ -133,6 +137,7 @@ h2{
     font-weight: bold;
     text-align: center;
     margin-top: 8px;
+    margin-bottom: 8px;
 }
 #textAreaIn{
     border-color: #231d38;
@@ -145,6 +150,9 @@ h2{
     color: #5F9EA0;
     font-weight: bold;
     text-align: center;
+    margin-top: 8px;
+    border-bottom-width: 8px;
+    margin-bottom: 8px;
 }
 #textAreaOut{
     border-color: #231d38;
@@ -157,6 +165,7 @@ h2{
     font-size: 16px;
     color: #EE82EE;
     margin-top: 0px;
+    margin-bottom: 8px;
 }
 #fraseIntroDos{
     font-family: Arial, Helvetica, sans-serif;
@@ -174,7 +183,7 @@ h2{
     font-family: cursive;
     color: #5F9EA0;
     font-weight: bold;
-    width: 20%;
+    width: 17%;
     padding: 5px;
     border: #4682B4 1px solid;
     border-radius: 20px;
@@ -184,7 +193,7 @@ h2{
     font-family: cursive;
     color: #5F9EA0;
     font-weight: bold;
-    width: 20%;
+    width: 23%;
     padding: 5px;
     border: #4682B4 1px solid;
     border-radius: 20px;
@@ -194,7 +203,7 @@ h2{
     font-family: cursive;
     color: #5F9EA0;
     font-weight: bold;
-    width: 20%;
+    width: 23%;
     padding: 5px;
     border: #4682B4 1px solid;
     border-radius: 20px;
@@ -204,7 +213,7 @@ h2{
     font-family: cursive;
     color: #5F9EA0;
     font-weight: bold;
-    width: 20%;
+    width: 23%;
     padding: 5px;
     border: #4682B4 1px solid;
     border-radius: 20px;
@@ -218,6 +227,23 @@ h2{
     padding: 5px;
     border: #4682B4 1px solid;
     border-radius: 20px;
+}
+
+#divNoAttempts{
+    display: flex;
+    justify-content: center;
+}
+#phraseNoAttempts{
+    height: 69px;
+    width: 200px;
+    color: chocolate;
+}
+
+#idImgTryAgain{
+    width: 150px;
+    height: 150px;
+    margin-top: 9px;
+    text-align: center;
 }
 
 }
