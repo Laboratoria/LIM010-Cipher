@@ -4,6 +4,30 @@ body {
     margin: 0px;
     background-size:100% 110%;
 }
+h1{
+    color: #fff;
+    text-align: center;
+    font-family: Arial;
+    font-weight: normal;
+    margin: -5em auto 0px;
+    position: relative;
+    top: 150px;
+}
+#imagen{
+    width: 300px;
+    height: auto;
+    display: block;
+    padding: 2%;
+    top: 20%;
+    MARGIN-BLOCK-END: -187px;
+    margin: -17em auto 0px;
+
+}
+
+#error{
+    position: relative;
+    left:330px;
+}
 #cipher{
     background:transparent;
     height: 400px;
@@ -15,8 +39,24 @@ body {
     position: relative;
     top:200px;
 }
+#buttonnext{
+    width: 145px;
+    height: -25px;
+    display: block;
+    padding: 0%;
+    top: 20%;
+    MARGIN-BLOCK-END: -17px;
+    margin: 21em auto 0px;
+}
 #login {
         display:block;
+        position: absolute;
+        background: #edeff1;
+        margin:0px auto;
+        padding-top:20px;
+        border-radius: 10px;
+        -moz-border-radius:10px;
+        -webkit-border-radius:10px;
         position: absolute;
         width: 50%;
         top:0;
@@ -26,31 +66,13 @@ body {
         right: 0;
         margin: auto;
     }
-h1{
-    color: #fff;
-    text-align: center;
-    font-family: Arial;
-    font-weight:normal;
-    margin: 2em auto 0px;
-    position: relative;
-    top:150px;
-}
-.login{
-    background: #edeff1;
-    margin:0px auto;
-    padding-top:20px;
-    border-radius: 10px;
-    -moz-border-radius:10px;
-    -webkit-border-radius:10px;
-    position: absolute;
-    width: 50%;
-    top:0;
-    height: 150px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
+    #login.hide{
+        display:none
+    }
+    #cipher.show{
+        display:block;
+    }
+
 input[type="password"]{
 
     background: #fff;
@@ -81,29 +103,8 @@ input[type="password"]:focus{
     right: 0;
     margin: auto;
 }
-#login.hide{
-    display:none
-}
-#cipher.show{
-    display:block;
 
-}
-input[type="number"]{
-    width: 309px;
-    height: 35px;
-    margin:15px auto;
-    background: #fff;
-    border:0px;
-    padding: 5px;
-    font-size:16px;
-    border:2px solid #fff;
-    transition:all 0.3s ease;
-    border-radius:5px;
-    -moz-border-radius:5px;
-    position: relative;
-    right: 70px;
-}
-textarea{
+.textbox{
     width: 309px;
     height: 35px;
     margin:15px auto;
@@ -127,7 +128,7 @@ h2{
     position: relative;
     right: 20px;
 }
-input[type="button"]{
+.buttons{
     height: 35px;
     margin:15px auto;
     background: #fff;
@@ -137,43 +138,4 @@ input[type="button"]{
     border-radius:5px;
     -moz-border-radius:5px;
     display: inline-block;
-}
-#buttonnext{
-    height: 35px;
-    margin:15px auto;
-    background: #fff;
-    border:0px;
-    font-size:16px;
-    border:2px solid #fff;
-    border-radius:5px;
-    -moz-border-radius:5px;
-    position: relative;
-    left:270px;
-    top:60px;
-    -webkit-transition-duration: 0.6s;
-    transition-duration:0.6;
-    overflow: hidden;
-    cursor: pointer;
-}
-#buttonnext:after{
-    content: "";
-    background: #1abc9d;
-    display: block;
-    position: absolute;
-    margin-left: -20px!important;
-    opacity: 0;
-    transition: all 0.8s;
-
-}
-#imagen{
-    position:absolute;
-    top:-8px;
-    left:450px;
-}
-#error{
-    position: relative;
-    left:330px;
-}
-input[type="button"]{
-float: left;
 }
