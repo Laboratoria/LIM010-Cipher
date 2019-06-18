@@ -12,7 +12,7 @@ El prototipo en papel fué ideado de acuerdo a estilos similares en otras plataf
 ![59106753-cd5bea80-88fc-11e9-9ceb-aebfd93ef4e2](https://user-images.githubusercontent.com/51275990/59510525-88463400-8e79-11e9-9774-232a79fe9fe0.jpg)
 ## Resultados del feedback
 A partir de una segunda entrevista no estructurada se recaudó opiniones en cuanto a lo planteado en el prototipo de baja fidelidad de  papel. se dieron cambios en la etiqueta de los los botones  y se incluyó el placeholder  para hacerlos más comprensibles para el publico objetivo. 
-#Prototipo de baja fidelidad en Balsamiq
+
 ![59106754-cdf48100-88fc-11e9-8d24-949140409f14](https://user-images.githubusercontent.com/51275990/59510526-8a0ff780-8e79-11e9-8291-66bd9cf00b64.png)
 
 ![59106755-cdf48100-88fc-11e9-85ff-e873282a32a5](https://user-images.githubusercontent.com/51275990/59510528-8b412480-8e79-11e9-8dd4-ddd715d420d3.png)
