@@ -103,11 +103,11 @@ h2{
 {
     border: none;
     outline: none;
-    height: 40px;
-    width: 90px;
+    height: 30px;
+    width: 80px;
     background: #2e159c;
     color: #fff;
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 20px;
 }
 
@@ -132,11 +132,13 @@ h2{
     color: #5F9EA0;
     font-weight: bold;
     text-align: center;
+    margin-top: 8px;
 }
 #textAreaIn{
     border-color: #231d38;
-    width: 360px;
-    height: 150px;
+    width: 250px;
+    height: 100px;
+    margin-bottom: 3px;
 }
 
 #showFeedback{
@@ -152,22 +154,21 @@ h2{
 
 #welcome{
     font-family: cursive;
-    width: 1070px;
-    font-size: 25px;
+    font-size: 16px;
     color: #EE82EE;
     margin-top: 0px;
 }
 #fraseIntroDos{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     color: rgb(92, 58, 146);
-    width: 1070px;
+    width: 340px;
     text-align: center;
 }
 
 #inputOffset{
     height: 15px;
-    width: 50px;
+    width: 40px;
 }
 #btnEncode {
     font-family: cursive;
