@@ -1,11 +1,4 @@
-body {
-  width: 100%;
-  display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-sizing: border-box;
 
-}
 .visible {
     display: block;
 }
@@ -18,18 +11,39 @@ h1{
     margin-top: 2px;
     margin-bottom: 2px;
 }
-@media screen and (max-width: 600px){
-header img{
-width: 340px;
-height: 75px;
-}
 
 main{
-  min-height: 80vh;
+    display: flex;
+    flex: 1;
+}
+
+@media screen and (max-width: 600px){ 
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header img{
+    width: 360px;
+    height: 75px;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none; 
 }
 
 #imagenPrincipal{
-    width: 100%;
+    width: 370px;
     height: 100%;
 }
 
@@ -124,8 +138,24 @@ h2{
 }
 
 #divTransform{
-    height: 370px;
+    height: 100%;
 }
+
+#welcome{
+    font-family: cursive;
+    font-size: 16px;
+    color: #EE82EE;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+#fraseIntroDos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(92, 58, 146);
+    width: 340px;
+    text-align: center;
+}
+
 .divContainer{
     display: flex;
     flex-flow: row wrap;
@@ -158,21 +188,6 @@ h2{
     border-color: #231d38;
     width: 360px;
     height: 150px;
-}
-
-#welcome{
-    font-family: cursive;
-    font-size: 16px;
-    color: #EE82EE;
-    margin-top: 0px;
-    margin-bottom: 8px;
-}
-#fraseIntroDos{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: rgb(92, 58, 146);
-    width: 340px;
-    text-align: center;
 }
 
 #inputOffset{
@@ -235,8 +250,9 @@ h2{
 }
 #phraseNoAttempts{
     height: 69px;
-    width: 200px;
-    color: chocolate;
+    width: 250px;
+    color: firebrick;
+    font-size: 20px
 }
 
 #idImgTryAgain{
@@ -246,26 +262,32 @@ h2{
     text-align: center;
 }
 
+} 
+
+@media screen and (min-width: 764px){
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    }
+  
+header img{
+    width: 100%;
+    height: 100%;
+}
+  
+  .visible {
+    display: block;
 }
 
-/*
-@media screen and (min-width: 600px){
-  header img{
-  width: 340px;
-  height: 75px;
-  }
-  
-  main{
-    min-height: 80vh;
-  }
-  .visible {
-      display: block;
-  }
-  
-  .hidden {
-      display: none; 
-  }
-  
+.hidden {
+    display: none; 
+}
+
   #imagenPrincipal{
       float: left;
       margin-right: 50px;
@@ -364,6 +386,7 @@ h2{
   }
   
   #divTransform{
+    
       height: 370px;
   }
   .divContainer{
@@ -463,5 +486,21 @@ h2{
       border-radius: 20px;
   }
   
+  #divNoAttempts{
+    display: flex;
+    justify-content: center;
+}
+#phraseNoAttempts{
+    height: 69px;
+    width: 250px;
+    color: firebrick;
+    font-size: 20px
+}
+
+#idImgTryAgain{
+    width: 150px;
+    height: 150px;
+    margin-top: 9px;
+    text-align: center;
+}
   }
-*/
