@@ -6,12 +6,13 @@ Para consolidar la idea inicial se procedió a realizar entrevistas no estructur
 ## Público y objetivo
 Por lo mencionado, el producto va dirigido a maestros o directores de instituciones educativas  que tengan  la necesidad de crear un código de alumno que le permita a los estudiantes acceder a correos institucionales, publicación general de notas o cualquier otro uso que mantenga sus datos de manera confidencial.
 El proyecto consiste en dos funcionalidades principales y una secundaria , la primera realiza la encriptación del nombre o iniciales del alumno,los cuales se usan para crear un nuevo código; la segunda funcionalidad acceder a los datos del alumno incluyendo el código otorgado anteriormente gracias a la funcionalidad del desencriptado y finalmente la tercera funcionalidad permite al maestro configurar el número de *offsets que cada letra del nombre o iniciales del alumno correrán en el abecedario para cambiar así por otra letra siguiente de acuerdo al número a incluir. 
-## Primer prototipo
+##Prototipo de baja fidelidad en papel
 El prototipo en papel fué ideado de acuerdo a estilos similares en otras plataformas virtuales para maestros como Sianet y CRA, se eligió un estilo sobrio y simple.
-#Prototipo de baja fidelidad en papel
+
 ![59106753-cd5bea80-88fc-11e9-9ceb-aebfd93ef4e2](https://user-images.githubusercontent.com/51275990/59510525-88463400-8e79-11e9-9774-232a79fe9fe0.jpg)
+
 ## Resultados del feedback
-A partir de una segunda entrevista no estructurada se recaudó opiniones en cuanto a lo planteado en el prototipo de baja fidelidad de  papel. se dieron cambios en la etiqueta de los los botones  y se incluyó el placeholder  para hacerlos más comprensibles para el publico objetivo. 
+A partir de una segunda entrevista no estructurada se recaudó opiniones en cuanto a lo planteado en el prototipo de baja fidelidad de papel. Los entrevistados mostraron dificultad al entender el producto,  gracias a estas opiniones se  dieron cambios en la etiqueta de los los botones  y se incluyó el placeholder  para hacerlos más comprensibles para el publico objetivo. 
 
 ![59106754-cdf48100-88fc-11e9-8d24-949140409f14](https://user-images.githubusercontent.com/51275990/59510526-8a0ff780-8e79-11e9-8291-66bd9cf00b64.png)
 
