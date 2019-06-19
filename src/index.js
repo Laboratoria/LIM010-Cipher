@@ -63,7 +63,7 @@ encode.addEventListener("click", () => {
 let decode = document.getElementById('btnDecode');
 decode.addEventListener("click", () => {
     let offset = parseInt(document.getElementById('inputOffset').value);
-    let string = document.getElementById('textAreaOut').value;
+    let string = document.getElementById('textAreaIn').value;
     let transformedText = cipher.decode(offset, string);
     document.getElementById('textAreaOut').value = transformedText;
 });
