@@ -40,7 +40,7 @@ h1{
     margin:auto;
     display:block;
     display:none;
-    width: 200px;
+    width: 227px;
     position: relative;
     top:200px;
 }
@@ -144,4 +144,22 @@ h2{
     border-radius:5px;
     -moz-border-radius:5px;
     display: inline-block;
+    float:left right center;
+}
+
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center
 }
