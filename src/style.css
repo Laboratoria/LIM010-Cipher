@@ -144,19 +144,6 @@ h2{
     margin-left: 20px;
 }
 
-/*
-
-#footer {
-    display: flex;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;       
-} 
-
-
-
-
-
 #addFeedback{
     color: #5F9EA0;
     font-weight: bold;
@@ -164,6 +151,7 @@ h2{
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
 #textAreaIn{
     border-color: #231d38;
     width: 250px;
@@ -171,24 +159,11 @@ h2{
     margin-bottom: 3px;
 }
 
-#showFeedback{
-    color: #5F9EA0;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 8px;
-    border-bottom-width: 8px;
-    margin-bottom: 8px;
-}
-#textAreaOut{
-    border-color: #231d38;
-    width: 360px;
-    height: 150px;
-}
-
 #inputOffset{
     height: 15px;
     width: 40px;
 }
+
 #btnEncode {
     font-family: cursive;
     color: #5F9EA0;
@@ -207,6 +182,22 @@ h2{
     padding: 5px;
     border: #4682B4 1px solid;
     border-radius: 20px;
+}
+
+#showFeedback{
+    color: #5F9EA0;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8px;
+    border-bottom-width: 8px;
+    margin-bottom: 8px;
+}
+
+#textAreaOut{
+    border-color: #231d38;
+    width: 250px;
+    height: 100px;
+    margin-bottom: 3px;
 }
 
 #btnClean{
@@ -241,23 +232,36 @@ h2{
 
 #divNoAttempts{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
+
 #phraseNoAttempts{
     height: 69px;
     width: 250px;
     color: firebrick;
-    font-size: 20px
+    font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 30px;
 }
 
 #idImgTryAgain{
     width: 150px;
     height: 150px;
     margin-top: 9px;
-    text-align: center;
+    margin-left: 80px;
 }
 
+#footer {
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;       
 } 
+
+/*
+
+
 
 @media screen and (min-width: 764px){
 body {
