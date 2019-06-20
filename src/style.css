@@ -41,8 +41,8 @@ header img {
   letter-spacing: 2pt;
   font-size: 17px;
   width: 340px;
-  margin-top: 45px;
-  margin-left: 40px;
+  margin-top: 25px;
+  margin-left: 30px;
 }
 
 #imagenPrincipal{
@@ -259,27 +259,32 @@ h2{
     height: 2.5rem;       
 } 
 
-/*
-
-
-
 @media screen and (min-width: 764px){
+h1{
+        margin-top: 2px;
+        margin-bottom: 2px;
+}
+    
+main{
+        display: flex;
+        flex: 1;
+}
+
 body {
     display: flex;
-    flex-direction: row;
+    flex-direction: row nowrap;
     justify-content: center;
-    box-sizing: border-box;
     min-height: 100vh;
     margin: 0;
     box-sizing: border-box;
-    }
+}
   
 header img{
     width: 100%;
-    height: 100%;
+    height: 150px;
 }
-  
-  .visible {
+
+.visible {
     display: block;
 }
 
@@ -287,208 +292,217 @@ header img{
     display: none; 
 }
 
-  #imagenPrincipal{
-      float: left;
-      margin-right: 50px;
-      margin-top: -20px;
-      margin-bottom: -5px;
-      width: 300px;
-      height: 200px;
-  }
-  
-  #footer {
-      display: flex;
-      bottom: 0;
-      width: 100%;
-      height: 2.5rem;        
-  } 
-  
-  #fraseIntro{
+#fraseIntro{
       color: blueviolet;
       letter-spacing: 2pt;
       font-size: 25px;
       width: 300px;
       position: absolute;
-      top: 200px;
+      top: 150px;
       left: 800px;
-  }
-  
-  #loginForm {
-      width: 320px;
-      height: 350px;
-      background: rgb(148, 141, 214);
-      color: rgb(255, 255, 255);
-      top: 68%;
-      left: 66%;
-      position: absolute;
-      transform: translate(-50%,-50%);
-      box-sizing: border-box;
-      border: 1px solid black;
-      padding: 70px 40px;
-      padding-bottom: 20px;
-  }
-  
-  .avatar{
+}
+
+#imagenPrincipal{
+    float: left;
+    margin-right: 50px;
+    margin-top: -20px;
+    margin-bottom: -5px;
+    width: 100%;
+    height: 100%;
+}
+
+#loginForm {
+    width: 320px;
+    height: 350px;
+    background: rgb(148, 141, 214);
+    color: rgb(255, 255, 255);
+    top: 68%;
+    left: 66%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 70px 40px;
+}
+
+.avatar{
       width: 100px;
       height: 100px;
       border-radius: 50%;
       position: absolute;
       top: -50px;
       left: calc(50% - 50px);
-  }
+}
+
+h2{
+    margin: 0px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(6, 118, 133)
+}  
+
+#loginForm p{
+    font-family: sans-serif;
+    font-weight: bold; 
+    font-size: 17px;
+    color:rgb(71, 73, 73);
+}
   
-  h2{
-      margin: 0px;
-      padding: 0 0 20px;
-      text-align: center;
-      font-size: 22px;
-      color: rgb(6, 118, 133)
-  }
-  
-  #loginForm p{
-      font-family: sans-serif;
-      font-weight: bold; 
-      font-size: 16px;
-      color:rgb(71, 73, 73);
-  }
-  
-  #loginForm input{
+#loginForm input{
       width: 100%;
-  }
+}
+
+#loginForm input[type="text"], input[type="password"] {
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 17px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
   
-  #loginForm input[type="text"], input[type="password"] {
-      border-bottom: 1px solid #fff;
-      outline: none;
-      height: 17px;
-      color: rgb(0, 0, 0);
-      font-size: 14px;
-  }
+#loginForm input[type="button"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 90px;
+    background: #2e159c;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 20px;
+}
   
-  #loginForm input[type="button"]
-  {
-      border: none;
-      outline: none;
-      height: 40px;
-      width: 90px;
-      background: #2e159c;
-      color: #fff;
-      font-size: 14px;
-      border-radius: 20px;
-  }
-  
-  #loginForm input[type="button"]:hover
-  {
-      cursor: pointer;
-      background: rgb(54, 209, 201);
-      color: #000;
-      opacity: 1;
-  }
-  
-  #divTransform{
-    
-      height: 370px;
-  }
-  .divContainer{
+#loginForm input[type="button"]:hover
+{
+    cursor: pointer;
+    background: rgb(54, 209, 201);
+    color: #000;
+    opacity: 1;
+}
+
+#welcome{
+      font-family: cursive;
+      font-size: 20px;
+      color: #EE82EE;
+      margin-top: 20px;
+      margin-bottom: 8px;
+      margin-left: 10px;
+}
+
+#fraseIntroDos{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      color: rgb(92, 58, 146);
+      width: 100%;
+      text-align: center;
+}
+
+.divContainer{
       display: flex;
       flex-flow: row nowrap;
       justify-content: space-around;
+}
+
+#addFeedback{
+    color: #5F9EA0;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
-  #addFeedback{
-      color: #5F9EA0;
-      font-weight: bold;
-      text-align: center;
-  }
-  #textAreaIn{
-      border-color: #231d38;
-      width: 360px;
-      height: 150px;
-  }
+#textAreaIn{
+    border-color: #231d38;
+    width: 330px;
+    height: 150px;
+    margin-bottom: 10px;
+}
   
-  #showFeedback{
-      color: #5F9EA0;
-      font-weight: bold;
-      text-align: center;
-  }
-  #textAreaOut{
-      border-color: #231d38;
-      width: 360px;
-      height: 150px;
-  }
+#inputOffset{
+    height: 15px;
+    width: 50px;
+}
   
-  #welcome{
-      font-family: cursive;
-      width: 1070px;
-      font-size: 25px;
-      color: #EE82EE;
-      margin-top: 0px;
-  }
-  #fraseIntroDos{
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 20px;
-      color: rgb(92, 58, 146);
-      width: 1070px;
-      text-align: center;
-  }
+#btnEncode {
+    font-family: cursive;
+    color: #5F9EA0;
+    font-weight: bold;
+    width: 20%;
+    padding: 5px;
+    border: #4682B4 1px solid;
+    border-radius: 20px;
+}
+
+#btnDecode{
+    font-family: cursive;
+    color: #5F9EA0;
+    font-weight: bold;
+    width: 25%;
+    padding: 5px;
+    border: #4682B4 1px solid;
+    border-radius: 20px;
+}
   
-  #inputOffset{
-      height: 15px;
-      width: 50px;
-  }
-  #btnEncode {
-      font-family: cursive;
-      color: #5F9EA0;
-      font-weight: bold;
-      width: 20%;
-      padding: 5px;
-      border: #4682B4 1px solid;
-      border-radius: 20px;
-  }
+#showFeedback{
+    color: #5F9EA0;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#textAreaOut{
+    border-color: #231d38;
+    width: 330px;
+    height: 150px;
+    margin-bottom: 10px;
+}  
+
+#btnClean{
+    font-family: cursive;
+    color: #5F9EA0;
+    font-weight: bold;
+    width: 20%;
+    padding: 5px;
+    border: #4682B4 1px solid;
+    border-radius: 20px;
+}
   
-  #btnDecode{
-      font-family: cursive;
-      color: #5F9EA0;
-      font-weight: bold;
-      width: 20%;
-      padding: 5px;
-      border: #4682B4 1px solid;
-      border-radius: 20px;
-  }
+#btnSend{
+    font-family: cursive;
+    color: #5F9EA0;
+    font-weight: bold;
+    width: 20%;
+    padding: 5px;
+    border: #4682B4 1px solid;
+    border-radius: 20px;
+}
   
-  #btnClean{
-      font-family: cursive;
-      color: #5F9EA0;
-      font-weight: bold;
-      width: 20%;
-      padding: 5px;
-      border: #4682B4 1px solid;
-      border-radius: 20px;
-  }
-  
-  #btnSend{
-      font-family: cursive;
-      color: #5F9EA0;
-      font-weight: bold;
-      width: 20%;
-      padding: 5px;
-      border: #4682B4 1px solid;
-      border-radius: 20px;
-  }
-  
-  #btnExit{
-      font-family: cursive;
-      color: #5F9EA0;
-      font-weight: bold;
-      width: 20%;
-      padding: 5px;
-      border: #4682B4 1px solid;
-      border-radius: 20px;
-  }
-  
-  #divNoAttempts{
+#btnExit{
+    font-family: cursive;
+    color: #5F9EA0;
+    font-weight: bold;
+    width: 20%;
+    padding: 5px;
+    border: #4682B4 1px solid;
+    border-radius: 20px;
+}
+
+#footer {
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;        
+} 
+
+#divNoAttempts{
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 100%;
 }
+
 #phraseNoAttempts{
     height: 69px;
     width: 250px;
@@ -500,8 +514,7 @@ header img{
     width: 150px;
     height: 150px;
     margin-top: 9px;
-    text-align: center;
-}
-  }
+} 
 
-  */
+}
+
