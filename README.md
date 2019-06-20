@@ -22,3 +22,8 @@ Otro feedback que me dieron, fue que el cuadro de texto donde uno ingresa su men
 
 ![send area](https://user-images.githubusercontent.com/50127415/59558018-9dbc7a80-8fad-11e9-8f1d-be7fdadd56cc.png)
 
+Después  de haber realizado el html de la página , me dijeron que sería mejor si el párrafo de la ventana uno lo coloco encima del "loginForm".
+
+Además , en la ventana dos, añadieron que es mejor que vaya la plaza offset o desplazamiento para que el usuario pueda saber de que se trata.
+
+Y por último , que agregue una imagen a la frase de la tercera ventana.
