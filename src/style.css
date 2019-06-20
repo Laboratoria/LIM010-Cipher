@@ -19,18 +19,15 @@ h1{
     display: block;
     padding: 2%;
     top: 20%;
-    MARGIN-BLOCK-END: -187px;
     margin: -17em auto 0px;
 
 }
-
 #error{
     width: 471px;
     height: 29px;
     display: block;
     padding: 6%;
     top: 173%;
-    MARGIN-BLOCK-END: -222px;
     margin: 0em -33px 0px;
 }
 #cipher{
@@ -46,11 +43,9 @@ h1{
 }
 #buttonnext{
     width: 145px;
-    height: -25px;
     display: block;
     padding: 0%;
     top: 20%;
-    MARGIN-BLOCK-END: -17px;
     margin: 21em auto 0px;
 }
 
@@ -144,7 +139,6 @@ h2{
     border-radius:5px;
     -moz-border-radius:5px;
     display: inline-block;
-    float:left right center;
 }
 
 @media screen and (max-width: 1060px) {

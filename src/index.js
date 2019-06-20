@@ -1,5 +1,5 @@
 /* Declaramos variables para las acciones y elementos */
-const contraseña = document.getElementById("contraseña")
+const pswd = document.getElementById("contraseña")
 const firstButton = document.getElementById("buttonnext")
 const vistalogin = document.getElementById("login")
 const vistacipher = document.getElementById("cipher")
@@ -13,11 +13,11 @@ let cajaoffset=document.getElementById("num")
 /*Loop para la funcionalidad de la contraseña*/
 let contador = 0
 firstButton.addEventListener("click", () => {
-  if (contraseña.value === "LABORATORIA") {
+  if (pswd.value === "LABORATORIA") {
 
     vistacipher.classList.toggle("show")
     vistalogin.classList.toggle("hide")
-  } else if (contador == 3) {
+  } else if (contador == 2) {
 
    error.innerHTML = "Ya utilizaste todos tus intentos, en este momento no podrás ingresar"
   }
